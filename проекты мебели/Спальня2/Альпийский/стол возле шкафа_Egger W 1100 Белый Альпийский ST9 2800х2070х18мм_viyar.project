@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="windows-1251" ?><project currency="" version="1" costOperation="0" costMaterial="0" cost="0" date="" orderDate="" productFilter="false">
+<viyar version="23">
+<order delivery="" uuid="" />
+<creator id="Bazis2Viyar" version="5.3" bazisVersion="85" />
+<constructor id="dsp" site="" />
+<materials>
+<material id="1" type="sheet" article="34022" name="Egger W 1100 Белый Альпийский ST9 2800х2070х18мм" width="3000" height="3000" thickness="18" />
+<material id="2" type="band" article="35425" name="REHAU ABS 78335 Белый альпийский PE 23х2мм" height="23" thickness="2" />
+</materials>
+<details>
+<detail id="1" material="1" barcode="" amount="3" width="693.0" height="209.0" multiplicity="1" grain="0" description="стВшкф.6.Фасад ящика" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="39.5" y="36.0" xo="39.5" yo="36.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="2" type="drilling" side="6" x="39.5" y="148.0" xo="39.5" yo="148.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="3" type="drilling" side="6" x="657.5" y="36.0" xo="657.5" yo="36.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="4" type="drilling" side="6" x="657.5" y="148.0" xo="657.5" yo="148.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="5" type="grooving" side="6" subtype="0" x="25.5" y="8.0" width="4.0" length="646.0" closed="0" depth="5.0" />
+</operations>
+</detail>
+<detail id="2" material="1" barcode="" amount="1" width="398.0" height="82.0" multiplicity="1" grain="0" description="стВшкф.7.Фасад ящика" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="30.5" y="33.0" xo="30.5" yo="33.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="2" type="drilling" side="6" x="30.5" y="60.0" xo="30.5" yo="60.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="3" type="drilling" side="6" x="380.5" y="33.0" xo="380.5" yo="33.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="4" type="drilling" side="6" x="380.5" y="60.0" xo="380.5" yo="60.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="5" type="grooving" side="6" subtype="0" x="16.5" y="8.0" width="4.0" length="378.0" closed="0" depth="5.0" />
+</operations>
+</detail>
+<detail id="3" material="1" barcode="" amount="1" width="416.0" height="82.0" multiplicity="1" grain="0" description="стВшкф.8.Фасад ящика" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="39.5" y="33.0" xo="39.5" yo="33.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="2" type="drilling" side="6" x="39.5" y="60.0" xo="39.5" yo="60.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="3" type="drilling" side="6" x="389.5" y="33.0" xo="389.5" yo="33.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="4" type="drilling" side="6" x="389.5" y="60.0" xo="389.5" yo="60.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="5" type="grooving" side="6" subtype="0" x="25.5" y="8.0" width="4.0" length="378.0" closed="0" depth="5.0" />
+</operations>
+</detail>
+</details>
+</viyar>
+</project>

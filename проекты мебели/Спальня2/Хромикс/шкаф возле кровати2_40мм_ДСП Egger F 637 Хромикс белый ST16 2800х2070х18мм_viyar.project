@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="windows-1251" ?><project currency="" version="1" costOperation="0" costMaterial="0" cost="0" date="" orderDate="" productFilter="false">
+<viyar version="23">
+<order delivery="" uuid="" />
+<creator id="Bazis2Viyar" version="5.3" bazisVersion="85" />
+<constructor id="dsp" site="" />
+<materials>
+<material id="1" type="sheet" article="69501" name="ДСП Egger F 637 Хромикс белый ST16 2800х2070х18мм" width="3000" height="3000" thickness="18" />
+<material id="2" type="band" article="26657" name="501.03 Кромка ПВХ SM Белый Гладкий 22х0,6 Kromag" height="22" thickness="0.6" />
+<material id="3" type="band" article="71601" name="F637 Кромка ABS Хромикс белый ST16 23х2мм (75 м.п.) EGGER" height="22" thickness="2" />
+</materials>
+<details>
+<detail id="1" material="1" barcode="" amount="1" width="473.0" height="70.0" multiplicity="1" grain="0" description="ШкфВКров.36.цоколь" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="2" x="10.0" y="35.0" xo="10.0" yo="35.0" xl="0" yl="0" d="8" depth="30.0" />
+<operation id="2" type="drilling" side="6" x="30.0" y="35.0" xo="30.0" yo="35.0" xl="0" yl="0" d="15" depth="12.0" />
+<operation id="3" type="drilling" side="4" x="9.0" y="45.0" xo="9.0" yo="45.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="4" type="drilling" side="4" x="9.0" y="20.0" xo="9.0" yo="20.0" xl="0" yl="0" d="5" depth="32.0" />
+</operations>
+</detail>
+<detail id="2" material="1" barcode="" amount="1" width="489.5" height="402.4" multiplicity="1" grain="0" description="ШкфВКров.37.столешница_возле кровати" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="kromka" param="3" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="2" x="9.0" y="380.0" xo="9.0" yo="380.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="2" type="drilling" side="2" x="9.0" y="25.0" xo="9.0" yo="25.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="3" type="drilling" side="6" x="481.0" y="25.0" xo="481.0" yo="25.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="4" type="drilling" side="6" x="481.0" y="380.0" xo="481.0" yo="380.0" xl="0" yl="0" d="5" depth="13.0" />
+</operations>
+</detail>
+<detail id="3" material="1" barcode="" amount="1" width="473.0" height="70.0" multiplicity="1" grain="0" description="ШкфВКров.38.цоколь" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="4" x="10.0" y="35.0" xo="10.0" yo="35.0" xl="0" yl="0" d="8" depth="12.0" />
+<operation id="2" type="drilling" side="6" x="461.0" y="35.0" xo="461.0" yo="35.0" xl="0" yl="0" d="15" depth="12.0" />
+<operation id="3" type="drilling" side="2" x="9.0" y="20.0" xo="9.0" yo="20.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="4" type="drilling" side="2" x="9.0" y="45.0" xo="9.0" yo="45.0" xl="0" yl="0" d="5" depth="32.0" />
+</operations>
+</detail>
+</details>
+</viyar>
+</project>

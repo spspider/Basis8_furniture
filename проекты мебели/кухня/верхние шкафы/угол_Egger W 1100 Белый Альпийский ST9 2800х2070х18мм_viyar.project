@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1251" ?><project currency="" version="1" costOperation="0" costMaterial="0" cost="0" date="" orderDate="" productFilter="false">
+<viyar version="23">
+<order delivery="" uuid="" />
+<creator id="Bazis2Viyar" version="5.3" bazisVersion="85" />
+<constructor id="dsp" site="" />
+<materials>
+<material id="1" type="sheet" article="34022" name="Egger W 1100 Белый Альпийский ST9 2800х2070х18мм" width="3000" height="3000" thickness="18" />
+<material id="2" type="band" article="26657" name="501.03 Кромка ПВХ SM Белый Гладкий 22х0,6 Kromag" height="22" thickness="0.6" />
+<material id="3" type="band" article="35425" name="REHAU ABS 78335 Белый альпийский PE 23х2мм" height="23" thickness="2" />
+<material id="4" type="band" article="14334" name="REHAU АВS 78006 Белый бриллиант 23х2мм" height="23" thickness="2" />
+</materials>
+<details>
+<detail id="1" material="1" barcode="" amount="1" width="702.0" height="97.4" multiplicity="1" grain="0" description="нВыт.1.фронт_низ" marker="0">
+<edges>
+<left type="kromka" param="3" drop="0" />
+<top type="kromka" param="3" drop="0" />
+<right type="kromka" param="3" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="1" x="27.0" y="25.0" xo="27.0" yo="25.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="2" type="drilling" side="1" x="697.0" y="25.0" xo="697.0" yo="25.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="3" type="drilling" side="1" x="27.0" y="45.0" xo="27.0" yo="45.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="4" type="drilling" side="1" x="697.0" y="45.0" xo="697.0" yo="45.0" xl="0" yl="0" d="8" depth="23.0" />
+</operations>
+</detail>
+<detail id="2" material="1" barcode="" amount="1" width="700.5" height="253.0" multiplicity="1" grain="1" description="нВыт.2.Дверь1" marker="0">
+<edges>
+<left type="kromka" param="4" drop="0" />
+<top type="kromka" param="4" drop="0" />
+<right type="kromka" param="4" drop="0" />
+<bottom type="kromka" param="4" drop="0" />
+</edges>
+</detail>
+</details>
+</viyar>
+</project>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Options>
+  <Items>
+    <Item Name="Тип профиля ручки">
+      <Value>Профиль С</Value>
+    </Item>
+    <Item Name="Количество дверей">
+      <Items>
+        <Item Name="Две центральные спереди">
+          <Visible>N</Visible>
+        </Item>
+      </Items>
+      <Value>2</Value>
+    </Item>
+    <Item Name="Количество секция">
+      <Value>1</Value>
+    </Item>
+    <Item Name="Цвет профиля">
+      <Value>Золото матовое</Value>
+    </Item>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+  </Items>
+</Options>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="windows-1251" ?><project currency="" version="1" costOperation="0" costMaterial="0" cost="0" date="" orderDate="" productFilter="false">
+<viyar version="23">
+<order delivery="" uuid="" />
+<creator id="Bazis2Viyar" version="5.3" bazisVersion="85" />
+<constructor id="dsp" site="" />
+<materials>
+<material id="1" type="sheet" article="34022" name="Egger W 1100 Белый Альпийский ST9 2800х2070х18мм" width="3000" height="3000" thickness="18" />
+<material id="2" type="band" article="35425" name="REHAU ABS 78335 Белый альпийский PE 23х2мм" height="23" thickness="2" />
+</materials>
+<details>
+<detail id="1" material="1" barcode="" amount="1" width="575.5" height="364.5" multiplicity="1" grain="0" description="вШф3ст.1.Дверь3_3ст_1_3" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="483.5" y="31.5" xo="483.5" yo="31.5" xl="0" yl="0" d="35" depth="12.0" />
+<operation id="2" type="drilling" side="6" x="506.0" y="41.0" xo="506.0" yo="41.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="3" type="drilling" side="6" x="461.0" y="41.0" xo="461.0" yo="41.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="4" type="drilling" side="6" x="67.5" y="31.5" xo="67.5" yo="31.5" xl="0" yl="0" d="35" depth="12.0" />
+<operation id="5" type="drilling" side="6" x="90.0" y="41.0" xo="90.0" yo="41.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="6" type="drilling" side="6" x="45.0" y="41.0" xo="45.0" yo="41.0" xl="0" yl="0" d="2" depth="8.0" />
+</operations>
+</detail>
+<detail id="2" material="1" barcode="" amount="1" width="575.5" height="355.5" multiplicity="1" grain="0" description="вШф3ст.2.Дверь2_3ст_1_2" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="483.5" y="337.0" xo="483.5" yo="337.0" xl="0" yl="0" d="35" depth="12.0" />
+<operation id="2" type="drilling" side="6" x="459.5" y="331.0" xo="459.5" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="3" type="drilling" side="6" x="507.5" y="331.0" xo="507.5" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="4" type="drilling" side="6" x="67.5" y="337.0" xo="67.5" yo="337.0" xl="0" yl="0" d="35" depth="12.0" />
+<operation id="5" type="drilling" side="6" x="43.5" y="331.0" xo="43.5" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="6" type="drilling" side="6" x="91.5" y="331.0" xo="91.5" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+</operations>
+</detail>
+<detail id="3" material="1" barcode="" amount="1" width="575.5" height="359.0" multiplicity="1" grain="0" description="вШф3ст.3.Дверь1_3ст_1_1" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="483.5" y="340.5" xo="483.5" yo="340.5" xl="0" yl="0" d="35" depth="12.0" />
+<operation id="2" type="drilling" side="6" x="461.0" y="331.0" xo="461.0" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="3" type="drilling" side="6" x="506.0" y="331.0" xo="506.0" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="4" type="drilling" side="6" x="67.5" y="340.5" xo="67.5" yo="340.5" xl="0" yl="0" d="35" depth="12.0" />
+<operation id="5" type="drilling" side="6" x="45.0" y="331.0" xo="45.0" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="6" type="drilling" side="6" x="90.0" y="331.0" xo="90.0" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+</operations>
+</detail>
+<detail id="4" material="1" barcode="" amount="1" width="549.0" height="364.5" multiplicity="1" grain="0" description="вШф3ст.4.Дверь6_3ст_2_3" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="495.5" y="31.5" xo="495.5" yo="31.5" xl="0" yl="0" d="35" depth="12.0" />
+<operation id="2" type="drilling" side="6" x="518.0" y="41.0" xo="518.0" yo="41.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="3" type="drilling" side="6" x="473.0" y="41.0" xo="473.0" yo="41.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="4" type="drilling" side="6" x="106.0" y="31.5" xo="106.0" yo="31.5" xl="0" yl="0" d="35" depth="12.0" />
+<operation id="5" type="drilling" side="6" x="128.5" y="41.0" xo="128.5" yo="41.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="6" type="drilling" side="6" x="83.5" y="41.0" xo="83.5" yo="41.0" xl="0" yl="0" d="2" depth="8.0" />
+</operations>
+</detail>
+<detail id="5" material="1" barcode="" amount="1" width="549.0" height="355.5" multiplicity="1" grain="0" description="вШф3ст.5.Дверь5_3ст_2_2" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="495.5" y="337.0" xo="495.5" yo="337.0" xl="0" yl="0" d="35" depth="12.0" />
+<operation id="2" type="drilling" side="6" x="471.5" y="331.0" xo="471.5" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="3" type="drilling" side="6" x="519.5" y="331.0" xo="519.5" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="4" type="drilling" side="6" x="106.0" y="337.0" xo="106.0" yo="337.0" xl="0" yl="0" d="35" depth="12.0" />
+<operation id="5" type="drilling" side="6" x="82.0" y="331.0" xo="82.0" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="6" type="drilling" side="6" x="130.0" y="331.0" xo="130.0" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+</operations>
+</detail>
+<detail id="6" material="1" barcode="" amount="1" width="549.0" height="359.0" multiplicity="1" grain="0" description="вШф3ст.6.Дверь4_3ст_2_1" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="495.5" y="340.5" xo="495.5" yo="340.5" xl="0" yl="0" d="35" depth="12.0" />
+<operation id="2" type="drilling" side="6" x="473.0" y="331.0" xo="473.0" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="3" type="drilling" side="6" x="518.0" y="331.0" xo="518.0" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="4" type="drilling" side="6" x="106.0" y="340.5" xo="106.0" yo="340.5" xl="0" yl="0" d="35" depth="12.0" />
+<operation id="5" type="drilling" side="6" x="83.5" y="331.0" xo="83.5" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="6" type="drilling" side="6" x="128.5" y="331.0" xo="128.5" yo="331.0" xl="0" yl="0" d="2" depth="8.0" />
+</operations>
+</detail>
+</details>
+</viyar>
+</project>

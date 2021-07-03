@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="windows-1251" ?><project currency="" version="1" costOperation="0" costMaterial="0" cost="0" date="" orderDate="" productFilter="false">
+<viyar version="23">
+<order delivery="" uuid="" />
+<creator id="Bazis2Viyar" version="5.3" bazisVersion="85" />
+<constructor id="dsp" site="" />
+<materials>
+<material id="1" type="sheet" article="95852" name="Egger H3331 ST10 Дуб Небраска натуральный 18 мм" width="3000" height="3000" thickness="18" />
+<material id="2" type="band" article="26657" name="501.03 Кромка ПВХ SM Белый Гладкий 22х0,6 Kromag" height="22" thickness="0.6" />
+<material id="3" type="band" article="26658" name="501.03 Кромка ПВХ SM Белый Гладкий 22х2 Kromag" height="22" thickness="2" />
+</materials>
+<details>
+<detail id="1" material="1" barcode="" amount="4" width="586.5" height="159.5" multiplicity="1" grain="0" description=".1.Сиянь_Фасад ящика" marker="0">
+<edges>
+<left type="kromka" param="3" drop="0" />
+<top type="kromka" param="3" drop="0" />
+<right type="kromka" param="3" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="1" x="295.3" y="81.8" xo="295.3" yo="81.8" xl="0" yl="0" d="5" depth="23.0" />
+<operation id="2" type="drilling" side="6" x="39.5" y="28.8" xo="39.5" yo="28.8" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="3" type="drilling" side="6" x="39.5" y="100.8" xo="39.5" yo="100.8" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="4" type="drilling" side="6" x="560.0" y="28.8" xo="560.0" yo="28.8" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="5" type="drilling" side="6" x="560.0" y="100.8" xo="560.0" yo="100.8" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="6" type="grooving" side="6" subtype="0" x="37.5" y="14.5" width="4.0" length="524.5" closed="0" depth="5.0" />
+</operations>
+</detail>
+<detail id="2" material="1" barcode="" amount="1" width="432.0" height="101.8" multiplicity="1" grain="0" description=".2.Сиянь_Боковина ящика левая" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="4" x="9.0" y="23.0" xo="9.0" yo="23.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="2" type="drilling" side="4" x="9.0" y="80.0" xo="9.0" yo="80.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="3" type="drilling" side="2" x="8.0" y="23.0" xo="8.0" yo="23.0" xl="0" yl="0" d="8" depth="34.0" />
+<operation id="4" type="drilling" side="1" x="34.0" y="23.0" xo="34.0" yo="23.0" xl="0" yl="0" d="15" depth="13.0" />
+<operation id="5" type="drilling" side="2" x="8.0" y="80.0" xo="8.0" yo="80.0" xl="0" yl="0" d="8" depth="34.0" />
+<operation id="6" type="drilling" side="1" x="34.0" y="80.0" xo="34.0" yo="80.0" xl="0" yl="0" d="15" depth="13.0" />
+<operation id="7" type="drilling" side="6" x="36.0" y="35.0" xo="36.0" yo="35.0" xl="0" yl="0" d="2" depth="10.0" />
+<operation id="8" type="drilling" side="6" x="387.0" y="35.0" xo="387.0" yo="35.0" xl="0" yl="0" d="2" depth="10.0" />
+<operation id="9" type="grooving" side="1" subtype="0" x="0" y="8.5" width="4.0" length="432.0" closed="0" depth="5.0" />
+</operations>
+</detail>
+</details>
+</viyar>
+</project>

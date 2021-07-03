@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Options>
+  <Items>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+    <Item Name="Количество цифр после запятой (размеры деталей и кромок)">
+      <Value>2</Value>
+    </Item>
+    <Item Name="Объеденить детали в одно изделие"/>
+    <Item Name="Толщина прифуговки равна толщине кромки"/>
+    <Item Name="Листовой раскрой">
+      <ReadOnly>Y</ReadOnly>
+      <Items>
+        <Item Name="Длина листа">
+          <Value>2800</Value>
+        </Item>
+        <Item Name="Ширина листа">
+          <Value>2070</Value>
+        </Item>
+      </Items>
+    </Item>
+    <Item Name="Что экспортировать">
+      <ReadOnly>Y</ReadOnly>
+      <Items>
+        <Item Name="Фрезерование контура">
+          <Items>
+            <Item Name="Фрезерование только зарезов, без смежных сторон"/>
+            <Item Name="Диаметр фрезы для контура">
+              <Value>20</Value>
+            </Item>
+            <Item Name="Выступ фрезы при сквозном фрезеровании контура"/>
+            <Item Name="Отступ от детади при входе/выходе фрезы при фрезерование контура">
+              <Value>30</Value>
+            </Item>
+            <Item Name="Фрезерование контура отдельно от сверления"/>
+          </Items>
+          <Value>Y</Value>
+        </Item>
+        <Item Name="Фрезерование и пазование">
+          <Items>
+            <Item Name="Паз по горизонтали">
+              <Value>Y</Value>
+            </Item>
+            <Item Name="Паз по вертикали">
+              <Value>Y</Value>
+            </Item>
+            <Item Name="Толщина пазовального инструмента">
+              <Value>3.2</Value>
+            </Item>
+            <Item Name="Выступ фрезы при сквозном фрезеровании"/>
+          </Items>
+          <Value>Y</Value>
+        </Item>
+        <Item Name="Сверления">
+          <Items>
+            <Item Name="Минимальная толщина для сверления">
+              <Value>6.1</Value>
+            </Item>
+            <Item Name="Минимальный диаметр отверстий">
+              <Value>3</Value>
+            </Item>
+            <Item Name="Выступ сверла при сквозном сверлении"/>
+            <Item Name="Для сквозных сверлений добавить суффикс &apos;Th&apos; в наименование инструмента"/>
+          </Items>
+          <Value>Y</Value>
+        </Item>
+        <Item Name="Комплектующие"/>
+        <Item Name="Профили"/>
+      </Items>
+    </Item>
+  </Items>
+</Options>

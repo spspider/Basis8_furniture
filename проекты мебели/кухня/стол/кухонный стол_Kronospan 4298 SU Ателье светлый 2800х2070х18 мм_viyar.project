@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="windows-1251" ?><project currency="" version="1" costOperation="0" costMaterial="0" cost="0" date="" orderDate="" productFilter="false">
+<viyar version="23">
+<order delivery="" uuid="" />
+<creator id="Bazis2Viyar" version="5.3" bazisVersion="85" />
+<constructor id="dsp" site="" />
+<materials>
+<material id="1" type="sheet" article="28717" name="Kronospan 4298 SU Ателье светлый 2800х2070х18 мм" width="3000" height="3000" thickness="18" />
+<material id="2" type="band" article="38426" name="Kromag Кромка ПВХ SM Белый Альпийский Гладкий 42х2" height="42" thickness="2" />
+</materials>
+<details>
+<detail id="1" material="1" barcode="" amount="1" width="1296.0" height="726.0" multiplicity="2" grain="0" description=".9.стол Сращ.(2)" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="1125.0" y="670.0" xo="1125.0" yo="670.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="2" type="drilling" side="6" x="649.0" y="670.0" xo="649.0" yo="670.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="3" type="drilling" side="6" x="175.0" y="670.0" xo="175.0" yo="670.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="4" type="drilling" side="6" x="1125.0" y="167.0" xo="1125.0" yo="167.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="5" type="drilling" side="6" x="649.0" y="167.0" xo="649.0" yo="167.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="6" type="drilling" side="6" x="175.0" y="167.0" xo="175.0" yo="167.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="7" type="drilling" side="6" x="265.0" y="132.0" xo="265.0" yo="132.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="8" type="drilling" side="6" x="1035.0" y="132.0" xo="1035.0" yo="132.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="9" type="drilling" side="6" x="591.0" y="132.0" xo="591.0" yo="132.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="10" type="drilling" side="6" x="709.0" y="132.0" xo="709.0" yo="132.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="11" type="cornerOperation" corner="4" subtype="1" x="80.0" y="80.0" r="80.0" edgeMaterial="2" edgeCovering="0" />
+<operation id="12" type="cornerOperation" corner="3" subtype="1" x="150.0" y="150.0" r="150.0" edgeMaterial="2" edgeCovering="0" />
+<operation id="13" type="cornerOperation" corner="2" subtype="1" x="150.0" y="150.0" r="150.0" edgeMaterial="2" edgeCovering="0" />
+<operation id="14" type="cornerOperation" corner="1" subtype="1" x="80.0" y="80.0" r="80.0" edgeMaterial="2" edgeCovering="0" />
+</operations>
+</detail>
+</details>
+</viyar>
+</project>

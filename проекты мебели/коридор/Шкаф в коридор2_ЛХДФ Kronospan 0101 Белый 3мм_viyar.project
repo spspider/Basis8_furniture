@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="windows-1251" ?><project currency="" version="1" costOperation="0" costMaterial="0" cost="0" date="" orderDate="" productFilter="false">
+<viyar version="23">
+<order delivery="" uuid="" />
+<creator id="Bazis2Viyar" version="5.3" bazisVersion="85" />
+<constructor id="dsp" site="" />
+<materials>
+<material id="1" type="sheet" article="56946" name="ЛХДФ Kronospan 0101 Белый 3мм" width="3000" height="3000" thickness="3" />
+</materials>
+<details>
+<detail id="1" material="1" barcode="" amount="1" width="540.0" height="405.5" multiplicity="1" grain="0" description=".163.4_л_Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="2" material="1" barcode="" amount="1" width="540.0" height="505.5" multiplicity="1" grain="0" description=".164.4_0_Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="3" material="1" barcode="" amount="1" width="540.0" height="505.5" multiplicity="1" grain="0" description=".165.1_4_дно" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="4" material="1" barcode="" amount="1" width="540.0" height="505.5" multiplicity="1" grain="0" description=".166.2_5_дно" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="5" material="1" barcode="" amount="2" width="540.0" height="505.5" multiplicity="1" grain="0" description=".167.3_1_Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="6" material="1" barcode="" amount="1" width="973.0" height="325.0" multiplicity="1" grain="0" description=".168.1_верх" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="7" material="1" barcode="" amount="1" width="1173.0" height="325.0" multiplicity="1" grain="0" description=".169.2_верх" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="8" material="1" barcode="" amount="1" width="540.0" height="505.5" multiplicity="1" grain="0" description=".170.4_4_Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="9" material="1" barcode="" amount="1" width="540.0" height="505.5" multiplicity="1" grain="0" description=".171.3_3_Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="10" material="1" barcode="" amount="1" width="540.0" height="505.5" multiplicity="1" grain="0" description=".172.1_3_Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="11" material="1" barcode="" amount="2" width="2027.0" height="477.5" multiplicity="1" grain="0" description=".173.4_низ" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="12" material="1" barcode="" amount="1" width="540.0" height="505.5" multiplicity="1" grain="0" description=".174.4_3_Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="13" material="1" barcode="" amount="1" width="540.0" height="405.5" multiplicity="1" grain="0" description=".175.4_п_Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="14" material="1" barcode="" amount="1" width="540.0" height="505.5" multiplicity="1" grain="0" description=".176.4_1_Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="15" material="1" barcode="" amount="1" width="390.0" height="276.0" multiplicity="1" grain="0" description=".177.5_1_Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="16" material="1" barcode="" amount="2" width="2027.0" height="577.5" multiplicity="1" grain="0" description=".178.2_низ" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="17" material="1" barcode="" amount="2" width="512.5" height="440.0" multiplicity="1" grain="0" description=".179.Сиянь_Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="18" material="1" barcode="" amount="1" width="540.0" height="505.5" multiplicity="1" grain="0" description=".180.2_2_Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="19" material="1" barcode="" amount="1" width="834.0" height="343.4" multiplicity="1" grain="0" description=".181.5_низ" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="20" material="1" barcode="" amount="1" width="973.0" height="325.0" multiplicity="1" grain="0" description=".182.4_верх" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="21" material="1" barcode="" amount="1" width="1173.0" height="325.0" multiplicity="1" grain="0" description=".183.3_верх" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="22" material="1" barcode="" amount="2" width="2027.0" height="485.0" multiplicity="1" grain="0" description=".184.1_низ" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="23" material="1" barcode="" amount="2" width="2027.0" height="577.5" multiplicity="1" grain="0" description=".185.3_низ" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="24" material="1" barcode="" amount="1" width="540.0" height="505.5" multiplicity="1" grain="0" description=".186.4_5_Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="25" material="1" barcode="" amount="1" width="540.0" height="505.5" multiplicity="1" grain="0" description=".187.2_1_Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="26" material="1" barcode="" amount="1" width="451.6" height="330.0" multiplicity="1" grain="0" description=".188.5_низ" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="27" material="1" barcode="" amount="1" width="875.6" height="330.0" multiplicity="1" grain="0" description=".189.5_верх" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="28" material="1" barcode="" amount="2" width="540.0" height="505.5" multiplicity="1" grain="0" description=".190.3_2_Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="29" material="1" barcode="" amount="1" width="454.0" height="325.0" multiplicity="1" grain="0" description=".191.5_верх" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+</details>
+</viyar>
+</project>

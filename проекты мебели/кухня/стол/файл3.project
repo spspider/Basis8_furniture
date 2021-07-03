@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<project currency="грн" version="1" costOperation="0" costMaterial="0" cost="0" date="2020-12-02 20:24:13" orderDate="" productFilter="false">
+  <viyar version="24">
+    <user name="Пауков Сергей Васильевич" phone="0919689776" email="spspider95@gmail.com" uuid="4a0eb06d-b471-11ea-a207-005056b8c5f1" fileName="кухонный стол_Kronospan 4298 SU Ателье светлый 2800х2070х18 мм_viyar" creator="Bazis2Viyar" ZakazBazar=""/>
+    <order delivery="d" uuid=""/>
+    <constructor id="dsp" fromTumbariki="" site="dp.viyar.ua" xnc="0"/>
+    <materials>
+      <material id="1" type="sheet" offcut_l="10" offcut_t="10" offcut_r="10" offcut_b="10" userOffcut="0" directCut="0" article="28717" typeMat="dsp" guid="58455" oldGuid="58455" uuid="964f4cb3-0d28-11e6-9039-005056b18742" name="Kronospan 4298 SU Ателье светлый 2800х2070х18 мм" width="2800" height="2070" thickness="18" isCliental="0">
+        <parts/>
+      </material>
+    </materials>
+    <details edge="Eva" typeEdge="edge">
+      <detail id="1" material="1" barcode="" amount="1" width="1317" height="747" description="ДНО.9.стол Сращ.(2)" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="1" BHXAvailable="false" machineCode="0">
+        <edges joint="0">
+          <left type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+      </detail>
+    </details>
+    <products/>
+  </viyar>
+</project>

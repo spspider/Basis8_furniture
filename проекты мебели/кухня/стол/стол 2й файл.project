@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<project currency="грн" version="1" costOperation="0" costMaterial="0" cost="0" date="2020-12-01 22:58:02" orderDate="" productFilter="false">
+  <viyar version="24">
+    <user name="Пауков Сергей Васильевич" phone="0919689776" email="spspider95@gmail.com" uuid="4a0eb06d-b471-11ea-a207-005056b8c5f1" fileName="кухонный стол_Kronospan 4298 SU Ателье светлый 2800х2070х18 мм_viyar" creator="Bazis2Viyar" ZakazBazar=""/>
+    <order delivery="d" uuid=""/>
+    <constructor id="dsp" fromTumbariki="" site="dp.viyar.ua" xnc="1" robot="G"/>
+    <materials>
+      <material id="1" type="sheet" offcut_l="10" offcut_t="10" offcut_r="5" offcut_b="5" userOffcut="0" directCut="0" article="55" typeMat="dsp" guid="0000" oldGuid="0000" uuid="93d632db-d7e8-4178-98e2-641bb27485f7" name="Материал заказчика (ДСП)" width="1450" height="920" thickness="18" isCliental="1" oneSided="">
+        <parts>
+          <part width="1450" height="920" quantity="1"/>
+        </parts>
+      </material>
+      <material id="2" type="band" article="78127" guid="72778" oldGuid="72778" uuid="5f237994-8fa5-11ea-9f85-005056b13af7" name="F416 Кромка ABS Текстиль бежевый ST10 43х2мм (75 м.п.) EGGER" height="43" thickness="2" markingColor="rgb(0,0,255)"/>
+    </materials>
+    <details edge="Eva" typeEdge="edge">
+      <detail id="1" material="1" barcode="" amount="1" width="1317" height="747" description="срастить с деталью 10 из заказа с текст" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="1" BHXAvailable="false" machineCode="2">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="1" curv="1" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="1" curv="1" pur="0" chamfer45="0"/>
+          <right type="kromka" param="2" cut="0" drop="1" curv="1" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="1" curv="1" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="6" x="1125" y="670" xo="1125" yo="670" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="6" x="649" y="670" xo="649" yo="670" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="6" x="175" y="670" xo="175" yo="670" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="6" x="1125" y="167" xo="1125" yo="167" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="6" x="649" y="167" xo="649" yo="167" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="6" x="175" y="167" xo="175" yo="167" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="7" type="drilling" subtype="0" side="6" x="265" y="132" xo="265" yo="132" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="8" type="drilling" subtype="0" side="6" x="1035" y="132" xo="1035" yo="132" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="9" type="drilling" subtype="0" side="6" x="591" y="132" xo="591" yo="132" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="10" type="drilling" subtype="0" side="6" x="709" y="132" xo="709" yo="132" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="11" type="cornerOperation" corner="1" subtype="1" x="80" y="80" r="80" inner="0" mill="1" ext="0" edgeMaterial="2" edgeCovering="0" withoutStep="0"/>
+          <operation id="12" type="cornerOperation" corner="2" subtype="1" x="150" y="150" r="150" inner="0" mill="1" ext="0" edgeMaterial="2" edgeCovering="0" withoutStep="0"/>
+          <operation id="13" type="cornerOperation" corner="3" subtype="1" x="150" y="150" r="150" inner="0" mill="1" ext="0" edgeMaterial="2" edgeCovering="0" withoutStep="0"/>
+          <operation id="14" type="cornerOperation" corner="4" subtype="1" x="80" y="80" r="80" inner="0" mill="1" ext="0" edgeMaterial="2" edgeCovering="0" withoutStep="0"/>
+        </operations>
+      </detail>
+    </details>
+    <products/>
+  </viyar>
+</project>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Options>
+  <Items>
+    <Item Name="Версия">
+      <Enabled>N</Enabled>
+      <Value>5.3</Value>
+    </Item>
+    <Item Name="Материал деталей">
+      <Value>29702; Kronospan 0110 SM Белый/Белый корпусный 2800х2070х18 мм</Value>
+    </Item>
+    <Item Name="Формат наименования деталей">
+      <Value>Позиция.Наименование</Value>
+    </Item>
+    <Item Name="Присоединять фурнитуру"/>
+    <Item Name="Файл проекта ViyarPro">
+      <Value>D:\My Documents\Documents_Windows\Bazis8\проекты мебели\Спальня1\шкафчик Сиянке_Kronospan 0110 SM Белый Белый корпусный 2800х2070х18 мм_viyar.project</Value>
+    </Item>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+  </Items>
+</Options>

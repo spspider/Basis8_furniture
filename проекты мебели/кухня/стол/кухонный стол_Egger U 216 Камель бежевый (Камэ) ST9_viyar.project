@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1251" ?><project currency="" version="1" costOperation="0" costMaterial="0" cost="0" date="" orderDate="" productFilter="false">
+<viyar version="23">
+<order delivery="" uuid="" />
+<creator id="Bazis2Viyar" version="5.3" bazisVersion="85" />
+<constructor id="dsp" site="" />
+<materials>
+<material id="1" type="sheet" article="34029" name="Egger U 216 Камель бежевый (Камэ) ST9" width="3000" height="3000" thickness="18" />
+<material id="2" type="band" article="26657" name="501.03 Кромка ПВХ SM Белый Гладкий 22х0,6 Kromag" height="22" thickness="0.6" />
+<material id="3" type="band" article="26658" name="501.03 Кромка ПВХ SM Белый Гладкий 22х2 Kromag" height="22" thickness="2" />
+</materials>
+<details>
+<detail id="1" material="1" barcode="" amount="2" width="2009.4" height="166.0" multiplicity="1" grain="0" description=".6.левая" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="kromka" param="3" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
+</edges>
+</detail>
+<detail id="2" material="1" barcode="" amount="1" width="566.0" height="68.0" multiplicity="1" grain="0" description=".7.вШкаф" marker="0">
+<edges>
+<left type="kromka" param="3" drop="0" />
+<top type="kromka" param="3" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
+</edges>
+</detail>
+<detail id="3" material="1" barcode="" amount="1" width="928.0" height="166.0" multiplicity="1" grain="0" description=".8.верх" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="kromka" param="3" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
+</edges>
+</detail>
+</details>
+</viyar>
+</project>

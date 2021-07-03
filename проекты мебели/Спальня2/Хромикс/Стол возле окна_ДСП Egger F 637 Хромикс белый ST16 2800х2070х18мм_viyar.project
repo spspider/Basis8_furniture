@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="windows-1251" ?><project currency="" version="1" costOperation="0" costMaterial="0" cost="0" date="" orderDate="" productFilter="false">
+<viyar version="23">
+<order delivery="" uuid="" />
+<creator id="Bazis2Viyar" version="5.3" bazisVersion="85" />
+<constructor id="dsp" site="" />
+<materials>
+<material id="1" type="sheet" article="69501" name="ДСП Egger F 637 Хромикс белый ST16 2800х2070х18мм" width="3000" height="3000" thickness="18" />
+<material id="2" type="band" article="71635" name="F637 Кромка ABS Хромикс белый ST16 43х2мм (75 м.п.) EGGER" height="43" thickness="2" />
+</materials>
+<details>
+<detail id="1" material="1" barcode="" amount="1" width="1696.0" height="596.0" multiplicity="2" grain="0" description="стВОкн.15.ст_окно_Столешница Сращ.(2)" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="118.6" y="104.5" xo="118.6" yo="104.5" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="2" type="drilling" side="6" x="104.4" y="118.6" xo="104.4" yo="118.6" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="3" type="drilling" side="6" x="25.4" y="97.5" xo="25.4" yo="97.5" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="4" type="drilling" side="6" x="20.3" y="77.9" xo="20.3" yo="77.9" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="5" type="drilling" side="6" x="77.9" y="20.3" xo="77.9" yo="20.3" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="6" type="drilling" side="6" x="97.5" y="25.4" xo="97.5" yo="25.4" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="7" type="drilling" side="6" x="20.2" y="521.9" xo="20.2" yo="521.9" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="8" type="drilling" side="6" x="25.3" y="502.6" xo="25.3" yo="502.6" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="9" type="drilling" side="6" x="104.3" y="481.3" xo="104.3" yo="481.3" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="10" type="drilling" side="6" x="118.6" y="495.8" xo="118.6" yo="495.8" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="11" type="drilling" side="6" x="97.5" y="574.5" xo="97.5" yo="574.5" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="12" type="drilling" side="6" x="77.9" y="579.9" xo="77.9" yo="579.9" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="13" type="drilling" side="6" x="1573.4" y="86.3" xo="1573.4" yo="86.3" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="14" type="drilling" side="6" x="1572.5" y="66.4" xo="1572.5" yo="66.4" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="15" type="drilling" side="6" x="1641.5" y="22.3" xo="1641.5" yo="22.3" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="16" type="drilling" side="6" x="1659.4" y="31.7" xo="1659.4" yo="31.7" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="17" type="drilling" side="6" x="1663.0" y="113.1" xo="1663.0" yo="113.1" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="18" type="drilling" side="6" x="1646.0" y="124.2" xo="1646.0" yo="124.2" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="19" type="drilling" side="6" x="1581.4" y="495.5" xo="1581.4" yo="495.5" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="20" type="drilling" side="6" x="1595.6" y="481.4" xo="1595.6" yo="481.4" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="21" type="drilling" side="6" x="1674.6" y="502.5" xo="1674.6" yo="502.5" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="22" type="drilling" side="6" x="1679.7" y="522.1" xo="1679.7" yo="522.1" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="23" type="drilling" side="6" x="1622.1" y="579.7" xo="1622.1" yo="579.7" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="24" type="drilling" side="6" x="1602.5" y="574.6" xo="1602.5" yo="574.6" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="25" type="drilling" side="6" x="1048.0" y="504.0" xo="1048.0" yo="504.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="26" type="drilling" side="6" x="687.0" y="504.0" xo="687.0" yo="504.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="27" type="drilling" side="6" x="328.0" y="504.0" xo="328.0" yo="504.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="28" type="drilling" side="6" x="1048.0" y="106.0" xo="1048.0" yo="106.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="29" type="drilling" side="6" x="687.0" y="106.0" xo="687.0" yo="106.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="30" type="drilling" side="6" x="328.0" y="106.0" xo="328.0" yo="106.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="31" type="drilling" side="6" x="494.0" y="590.0" xo="494.0" yo="590.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="32" type="drilling" side="6" x="864.0" y="590.0" xo="864.0" yo="590.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="33" type="drilling" side="5" x="1540.0" y="28.0" xo="1540.0" yo="28.0" xl="0" yl="0" d="8" depth="30.0" />
+<operation id="34" type="drilling" side="6" x="1540.0" y="30.0" xo="1540.0" yo="30.0" xl="0" yl="0" d="15" depth="12.0" />
+<operation id="35" type="drilling" side="6" x="1600.0" y="32.5" xo="1600.0" yo="32.5" xl="0" yl="0" d="35" depth="13.0" />
+<operation id="36" type="drilling" side="5" x="1600.0" y="29.0" xo="1600.0" yo="29.0" xl="0" yl="0" d="8" depth="34.0" />
+<operation id="37" type="drilling" side="6" x="1190.0" y="32.5" xo="1190.0" yo="32.5" xl="0" yl="0" d="35" depth="13.0" />
+<operation id="38" type="drilling" side="5" x="1190.0" y="29.0" xo="1190.0" yo="29.0" xl="0" yl="0" d="8" depth="34.0" />
+<operation id="39" type="drilling" side="5" x="1250.0" y="28.0" xo="1250.0" yo="28.0" xl="0" yl="0" d="8" depth="30.0" />
+<operation id="40" type="drilling" side="6" x="1250.0" y="30.0" xo="1250.0" yo="30.0" xl="0" yl="0" d="15" depth="12.0" />
+</operations>
+</detail>
+</details>
+</viyar>
+</project>

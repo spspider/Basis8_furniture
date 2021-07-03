@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="windows-1251" ?><project currency="" version="1" costOperation="0" costMaterial="0" cost="0" date="" orderDate="" productFilter="false">
+<viyar version="23">
+<order delivery="" uuid="" />
+<creator id="Bazis2Viyar" version="5.3" bazisVersion="85" />
+<constructor id="dsp" site="" />
+<materials>
+<material id="1" type="sheet" article="56946" name="ЛХДФ Kronospan 0101 Белый 3мм" width="3000" height="3000" thickness="3" />
+</materials>
+<details>
+<detail id="1" material="1" barcode="" amount="1" width="994.0" height="470.0" multiplicity="1" grain="0" description="ШкфВКров.39.зад шкафа низ" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="2" material="1" barcode="" amount="1" width="503.0" height="495.5" multiplicity="1" grain="0" description="ШкфВКров.40.зад шкафа низ" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="3" material="1" barcode="" amount="1" width="1445.0" height="996.0" multiplicity="1" grain="0" description="ШкфВКров.41.задняя стенка_ЛХДФ_верх шкафа" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="4" material="1" barcode="" amount="11" width="443.0" height="402.0" multiplicity="1" grain="0" description="ШкфВКров.42.Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+<detail id="5" material="1" barcode="" amount="2" width="443.0" height="384.0" multiplicity="1" grain="0" description="ШкфВКров.43.Дно ящика" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+</detail>
+</details>
+</viyar>
+</project>

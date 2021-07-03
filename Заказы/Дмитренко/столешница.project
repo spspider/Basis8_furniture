@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<project currency="грн" version="1" costOperation="0" costMaterial="0" cost="0" date="2021-01-09 12:59:43" orderDate="" productFilter="false">
+  <viyar version="24">
+    <user name="Пауков Сергей Васильевич" phone="0919689776" email="spspider95@gmail.com" uuid="4a0eb06d-b471-11ea-a207-005056b8c5f1" fileName="столешница" ZakazBazar=""/>
+    <order delivery="d" uuid=""/>
+    <constructor id="stol" fromTumbariki="" site="dp.viyar.ua" city="dp" xnc="1"/>
+    <materials>
+      <material id="1" type="sheet" offcut_l="20" offcut_t="0" offcut_r="0" offcut_b="0" userOffcut="0" directCut="0" article="56929" typeMat="stol" guid="54371" oldGuid="54371" uuid="99bb53e7-1f5b-11e1-9917-1cc1dee862d0" name="Luxeform S 501-1 U Камень гриджио бежевый 3050*600*38 мм" width="3050" height="600" thickness="38" isCliental="0">
+        <parts/>
+      </material>
+      <material id="2" type="band" article="56962" guid="54611" oldGuid="54611" uuid="7b56bc00-1f59-11e1-9917-1cc1dee862d0" name="Кромка калиброванная S 501 3050х42" height="42" thickness="0.5" markingColor="rgb(255,0,0)"/>
+    </materials>
+    <details edge="Eva" typeEdge="edge">
+      <detail id="1" material="1" barcode="" amount="1" width="1649" height="600" description="столешница" slidingfilling="0" timestamp="1610015603" multiplicity="1" grain="1" decoratedSide="" marker="1" BHXAvailable="false" machineCode="2">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="shapeByPattern" patternId="uShaped" edgeId="3" ext="0" shift="400" sizeH="100" sizeV="30" radius="10" edgeMaterial=""/>
+        </operations>
+      </detail>
+      <detail id="2" material="1" barcode="" amount="1" width="369" height="600" description="справа печки" slidingfilling="0" timestamp="1610111446" multiplicity="1" grain="1" decoratedSide="" marker="1" BHXAvailable="false" machineCode="0">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+      </detail>
+      <detail id="3" material="1" barcode="" amount="1" width="600" height="600" description="Политун" slidingfilling="0" timestamp="1610111915" multiplicity="1" grain="1" decoratedSide="" marker="1" BHXAvailable="false" machineCode="2">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="shapeByPattern" patternId="rectangular" ext="0" shiftX="25" shiftY="50" sizeH="550" sizeV="500" radius="10" joint="0" edgeMaterial="" depth="35" isFullZ="0" edgeFullZ="1"/>
+        </operations>
+      </detail>
+    </details>
+    <products/>
+  </viyar>
+</project>

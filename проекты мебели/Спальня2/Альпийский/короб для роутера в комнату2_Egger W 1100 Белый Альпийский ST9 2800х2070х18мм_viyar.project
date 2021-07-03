@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="windows-1251" ?><project currency="" version="1" costOperation="0" costMaterial="0" cost="0" date="" orderDate="" productFilter="false">
+<viyar version="23">
+<order delivery="" uuid="" />
+<creator id="Bazis2Viyar" version="5.3" bazisVersion="85" />
+<constructor id="dsp" site="" />
+<materials>
+<material id="1" type="sheet" article="34022" name="Egger W 1100 Белый Альпийский ST9 2800х2070х18мм" width="3000" height="3000" thickness="18" />
+<material id="2" type="band" article="26657" name="501.03 Кромка ПВХ SM Белый Гладкий 22х0,6 Kromag" height="22" thickness="0.6" />
+<material id="3" type="band" article="35425" name="REHAU ABS 78335 Белый альпийский PE 23х2мм" height="23" thickness="2" />
+</materials>
+<details>
+<detail id="1" material="1" barcode="" amount="1" width="380.0" height="111.4" multiplicity="1" grain="0" description="КоробРоутер.1.короб_низ" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="4" x="9.0" y="87.0" xo="9.0" yo="87.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="2" type="drilling" side="2" x="9.0" y="87.0" xo="9.0" yo="87.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="3" type="drilling" side="4" x="9.0" y="25.0" xo="9.0" yo="25.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="4" type="drilling" side="2" x="9.0" y="25.0" xo="9.0" yo="25.0" xl="0" yl="0" d="5" depth="32.0" />
+</operations>
+</detail>
+<detail id="2" material="1" barcode="" amount="1" width="409.0" height="408.0" multiplicity="1" grain="0" description="КоробРоутер.2.Дверь1_короба роутера" marker="0">
+<edges>
+<left type="kromka" param="3" drop="0" />
+<top type="kromka" param="3" drop="0" />
+<right type="kromka" param="3" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="390.5" y="334.0" xo="390.5" yo="334.0" xl="0" yl="0" d="35" depth="12.0" />
+<operation id="2" type="drilling" side="6" x="381.0" y="356.5" xo="381.0" yo="356.5" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="3" type="drilling" side="6" x="381.0" y="311.5" xo="381.0" yo="311.5" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="4" type="drilling" side="6" x="390.5" y="78.0" xo="390.5" yo="78.0" xl="0" yl="0" d="35" depth="12.0" />
+<operation id="5" type="drilling" side="6" x="381.0" y="100.5" xo="381.0" yo="100.5" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="6" type="drilling" side="6" x="381.0" y="55.5" xo="381.0" yo="55.5" xl="0" yl="0" d="2" depth="8.0" />
+</operations>
+</detail>
+<detail id="3" material="1" barcode="" amount="1" width="380.0" height="111.4" multiplicity="1" grain="0" description="КоробРоутер.3.короб_верх" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="4" x="9.0" y="87.0" xo="9.0" yo="87.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="2" type="drilling" side="2" x="9.0" y="87.0" xo="9.0" yo="87.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="3" type="drilling" side="4" x="9.0" y="25.0" xo="9.0" yo="25.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="4" type="drilling" side="2" x="9.0" y="25.0" xo="9.0" yo="25.0" xl="0" yl="0" d="5" depth="32.0" />
+</operations>
+</detail>
+<detail id="4" material="1" barcode="" amount="1" width="380.8" height="111.4" multiplicity="1" grain="0" description="КоробРоутер.4.короб_левая" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="1" x="9.0" y="87.0" xo="9.0" yo="87.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="2" type="drilling" side="1" x="373.0" y="87.0" xo="373.0" yo="87.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="3" type="drilling" side="1" x="9.0" y="25.0" xo="9.0" yo="25.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="4" type="drilling" side="1" x="373.0" y="25.0" xo="373.0" yo="25.0" xl="0" yl="0" d="8" depth="23.0" />
+</operations>
+</detail>
+<detail id="5" material="1" barcode="" amount="1" width="380.8" height="111.4" multiplicity="1" grain="0" description="КоробРоутер.5.короб_правая" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="1" x="373.0" y="87.0" xo="373.0" yo="87.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="2" type="drilling" side="1" x="9.0" y="87.0" xo="9.0" yo="87.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="3" type="drilling" side="1" x="373.0" y="25.0" xo="373.0" yo="25.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="4" type="drilling" side="1" x="9.0" y="25.0" xo="9.0" yo="25.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="5" type="drilling" side="6" x="46.0" y="37.0" xo="46.0" yo="37.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="6" type="drilling" side="6" x="78.0" y="37.0" xo="78.0" yo="37.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="7" type="drilling" side="6" x="302.0" y="37.0" xo="302.0" yo="37.0" xl="0" yl="0" d="2" depth="8.0" />
+<operation id="8" type="drilling" side="6" x="334.0" y="37.0" xo="334.0" yo="37.0" xl="0" yl="0" d="2" depth="8.0" />
+</operations>
+</detail>
+</details>
+</viyar>
+</project>

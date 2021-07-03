@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<project currency="грн" version="1" costOperation="0" costMaterial="0" cost="0" date="2021-01-08 17:25:37" orderDate="" productFilter="false">
+  <viyar version="24">
+    <user name="Пауков Сергей Васильевич" phone="0919689776" email="spspider95@gmail.com" uuid="4a0eb06d-b471-11ea-a207-005056b8c5f1" fileName="Дмитренко_Kronospan 0110 SM Белый Белый корпусный 2800х2070х18 мм_viyar" creator="Bazis2Viyar" ZakazBazar=""/>
+    <order delivery="d" uuid=""/>
+    <constructor id="dsp" fromTumbariki="" site="dp.viyar.ua" city="dp" xnc="1"/>
+    <materials>
+      <material id="1" type="sheet" offcut_l="10" offcut_t="10" offcut_r="10" offcut_b="10" userOffcut="0" directCut="0" article="29702" typeMat="dsp" guid="58444" oldGuid="58444" uuid="aa85a15f-33cc-11e6-867c-005056b13af7" name="ДСП Kronospan 0110 SM Белый/Белый корпусный 2800x2070x18 мм" width="2800" height="2070" thickness="18" isCliental="0">
+        <parts/>
+      </material>
+      <material id="2" type="band" article="26657" guid="59415" oldGuid="59415" uuid="4f3422d3-bb9c-11e5-b667-005056b18742" name="501.03 Кромка ПВХ SM Белый Гладкий 22х0,6 Kromag" height="22" thickness="0.5" markingColor="rgb(255,0,0)"/>
+      <material id="3" type="band" article="26658" guid="59468" oldGuid="59468" uuid="7e1aba52-bb9c-11e5-b667-005056b18742" name="501.03 Кромка ПВХ SM Белый Гладкий 22х2 Kromag" height="22" thickness="2" markingColor="rgb(0,0,255)"/>
+    </materials>
+    <details edge="Eva" typeEdge="edge">
+      <detail id="1" material="1" barcode="" amount="1" width="532" height="95.9" description="5.Боковина ящика левая" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="2" x="9" y="73.8" xo="9" yo="73.8" xl="0" yl="0" d="4.5" depth="32" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="2" x="9" y="22.8" xo="9" yo="22.8" xl="0" yl="0" d="4.5" depth="32" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="3" x="58" y="9" xo="58" yo="9" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="3" x="474" y="9" xo="474" yo="9" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="4" x="8" y="73.8" xo="8" yo="73.8" xl="0" yl="0" d="8" depth="34" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="1" x="498" y="73.8" xo="498" yo="73.8" xl="0" yl="0" d="15" depth="13" millD="0"/>
+          <operation id="7" type="drilling" subtype="0" side="4" x="8" y="22.8" xo="8" yo="22.8" xl="0" yl="0" d="8" depth="34" millD="0"/>
+          <operation id="8" type="drilling" subtype="0" side="1" x="498" y="22.8" xo="498" yo="22.8" xl="0" yl="0" d="15" depth="13" millD="0"/>
+          <operation id="9" type="drilling" subtype="0" side="6" x="496" y="56.5" xo="496" yo="56.5" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="10" type="drilling" subtype="0" side="6" x="48" y="56.5" xo="48" yo="56.5" xl="0" yl="0" d="2" depth="5" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="2" material="1" barcode="" amount="1" width="364.8" height="95.9" description="6.Задняя панель ящика" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="1" x="9" y="73.8" xo="9" yo="73.8" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="1" x="9" y="22.8" xo="9" yo="22.8" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="1" x="357" y="73.8" xo="357" yo="73.8" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="1" x="357" y="22.8" xo="357" yo="22.8" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="3" x="55" y="9" xo="55" yo="9" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="3" x="311" y="9" xo="311" yo="9" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="3" material="1" barcode="" amount="1" width="171" height="412" description="7.Фасад ящика" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="6" x="61.3" y="376.5" xo="61.3" yo="376.5" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="6" x="112.3" y="376.5" xo="112.3" yo="376.5" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="6" x="61.3" y="30.5" xo="61.3" yo="30.5" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="6" x="112.3" y="30.5" xo="112.3" yo="30.5" xl="0" yl="0" d="5" depth="13" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="4" material="1" barcode="" amount="1" width="532" height="95.9" description="8.Боковина ящика правая" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="2" x="9" y="73.8" xo="9" yo="73.8" xl="0" yl="0" d="4.5" depth="32" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="2" x="9" y="22.8" xo="9" yo="22.8" xl="0" yl="0" d="4.5" depth="32" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="3" x="58" y="9" xo="58" yo="9" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="3" x="474" y="9" xo="474" yo="9" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="4" x="10" y="73.8" xo="10" yo="73.8" xl="0" yl="0" d="8" depth="34" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="6" x="498" y="73.8" xo="498" yo="73.8" xl="0" yl="0" d="15" depth="13" millD="0"/>
+          <operation id="7" type="drilling" subtype="0" side="4" x="10" y="22.8" xo="10" yo="22.8" xl="0" yl="0" d="8" depth="34" millD="0"/>
+          <operation id="8" type="drilling" subtype="0" side="6" x="498" y="22.8" xo="498" yo="22.8" xl="0" yl="0" d="15" depth="13" millD="0"/>
+          <operation id="9" type="drilling" subtype="0" side="1" x="496" y="56.5" xo="496" yo="56.5" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="10" type="drilling" subtype="0" side="1" x="48" y="56.5" xo="48" yo="56.5" xl="0" yl="0" d="2" depth="5" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="5" material="1" barcode="" amount="1" width="532" height="70.8" description="9.Боковина ящика правая" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="4" x="9" y="22.5" xo="9" yo="22.5" xl="0" yl="0" d="4.5" depth="32" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="4" x="9" y="49.5" xo="9" yo="49.5" xl="0" yl="0" d="4.5" depth="32" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="2" x="10" y="22.5" xo="10" yo="22.5" xl="0" yl="0" d="8" depth="34" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="6" x="34" y="22.5" xo="34" yo="22.5" xl="0" yl="0" d="15" depth="13" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="2" x="10" y="49.5" xo="10" yo="49.5" xl="0" yl="0" d="8" depth="34" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="6" x="34" y="49.5" xo="34" yo="49.5" xl="0" yl="0" d="15" depth="13" millD="0"/>
+          <operation id="7" type="drilling" subtype="0" side="1" x="36" y="40" xo="36" yo="40" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="8" type="drilling" subtype="0" side="1" x="484" y="40" xo="484" yo="40" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="9" type="grooving" side="6" subtype="0" x="0" y="8.5" bindH="false" bindV="true" xa="0" ya="8" width="4" length="532" depth="5" closed="0" millD="0" article="" freza="0" BHXAvailable="true"/>
+        </operations>
+      </detail>
+      <detail id="6" material="1" barcode="" amount="1" width="532" height="70.8" description="10.Боковина ящика левая" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="4" x="9" y="22.5" xo="9" yo="22.5" xl="0" yl="0" d="4.5" depth="32" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="4" x="9" y="49.5" xo="9" yo="49.5" xl="0" yl="0" d="4.5" depth="32" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="2" x="8" y="22.5" xo="8" yo="22.5" xl="0" yl="0" d="8" depth="34" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="1" x="34" y="22.5" xo="34" yo="22.5" xl="0" yl="0" d="15" depth="13" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="2" x="8" y="49.5" xo="8" yo="49.5" xl="0" yl="0" d="8" depth="34" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="1" x="34" y="49.5" xo="34" yo="49.5" xl="0" yl="0" d="15" depth="13" millD="0"/>
+          <operation id="7" type="drilling" subtype="0" side="6" x="36" y="40" xo="36" yo="40" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="8" type="drilling" subtype="0" side="6" x="484" y="40" xo="484" yo="40" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="9" type="grooving" side="1" subtype="0" x="0" y="8.5" bindH="false" bindV="true" xa="0" ya="8" width="4" length="532" depth="5" closed="0" millD="0" article="" freza="0" BHXAvailable="true"/>
+        </operations>
+      </detail>
+      <detail id="7" material="1" barcode="" amount="1" width="689.5" height="274" description="11.Дверь2" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="6" x="613.5" y="22.5" xo="613.5" yo="22.5" xl="0" yl="0" d="35" depth="12" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="6" x="636" y="32" xo="636" yo="32" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="6" x="591" y="32" xo="591" yo="32" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="6" x="98.5" y="22.5" xo="98.5" yo="22.5" xl="0" yl="0" d="35" depth="12" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="6" x="121" y="32" xo="121" yo="32" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="6" x="76" y="32" xo="76" yo="32" xl="0" yl="0" d="2" depth="5" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="8" material="1" barcode="" amount="1" width="412" height="94.5" description="12.Фасад ящика" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="2">
+        <edges joint="0">
+          <left type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="6" x="39.5" y="27.5" xo="39.5" yo="27.5" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="6" x="39.5" y="54.5" xo="39.5" yo="54.5" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="6" x="385.5" y="27.5" xo="385.5" yo="27.5" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="6" x="385.5" y="54.5" xo="385.5" yo="54.5" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="5" type="grooving" side="6" subtype="0" x="37.5" y="13.5" bindH="false" bindV="true" xa="35.5" ya="11.5" width="4" length="350" depth="5" closed="0" millD="4" article="" freza="0" BHXAvailable="true"/>
+        </operations>
+      </detail>
+      <detail id="9" material="1" barcode="" amount="1" width="366" height="550" description="13.Дно ящика" slidingfilling="0" timestamp="0" multiplicity="1" grain="1" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="1" x="357" y="474" xo="357" yo="474" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="1" x="357" y="58" xo="357" yo="58" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="1" x="9" y="474" xo="9" yo="474" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="1" x="9" y="58" xo="9" yo="58" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="1" x="311" y="541" xo="311" yo="541" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="1" x="55" y="541" xo="55" yo="541" xl="0" yl="0" d="8" depth="30" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="10" material="1" barcode="" amount="2" width="532" height="125.8" description="14.Боковина ящика левая" slidingfilling="0" timestamp="0" multiplicity="1" grain="1" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="4" x="9" y="23" xo="9" yo="23" xl="0" yl="0" d="4.5" depth="32" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="4" x="9" y="104" xo="9" yo="104" xl="0" yl="0" d="4.5" depth="32" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="2" x="8" y="23" xo="8" yo="23" xl="0" yl="0" d="8" depth="34" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="1" x="34" y="23" xo="34" yo="23" xl="0" yl="0" d="15" depth="13" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="2" x="8" y="104" xo="8" yo="104" xl="0" yl="0" d="8" depth="34" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="1" x="34" y="104" xo="34" yo="104" xl="0" yl="0" d="15" depth="13" millD="0"/>
+          <operation id="7" type="drilling" subtype="0" side="6" x="36" y="40" xo="36" yo="40" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="8" type="drilling" subtype="0" side="6" x="484" y="40" xo="484" yo="40" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="9" type="grooving" side="1" subtype="0" x="0" y="8.5" bindH="false" bindV="true" xa="0" ya="8" width="4" length="532" depth="5" closed="0" millD="0" article="" freza="0" BHXAvailable="true"/>
+        </operations>
+      </detail>
+      <detail id="11" material="1" barcode="" amount="2" width="364.8" height="125.8" description="15.Задняя панель ящика" slidingfilling="0" timestamp="0" multiplicity="1" grain="1" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="1" x="357" y="23" xo="357" yo="23" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="1" x="357" y="104" xo="357" yo="104" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="1" x="9" y="23" xo="9" yo="23" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="1" x="9" y="104" xo="9" yo="104" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="5" type="grooving" side="6" subtype="0" x="0" y="8.5" bindH="false" bindV="true" xa="-0.5" ya="8" width="4" length="365.8" depth="5" closed="1" millD="0" article="" freza="0" BHXAvailable="true"/>
+        </operations>
+      </detail>
+      <detail id="12" material="1" barcode="" amount="2" width="168" height="412" description="16.Фасад ящика" slidingfilling="0" timestamp="0" multiplicity="1" grain="1" decoratedSide="" marker="0" BHXAvailable="true" machineCode="2">
+        <edges joint="0">
+          <left type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="6" x="28" y="376.5" xo="28" yo="376.5" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="6" x="109" y="376.5" xo="109" yo="376.5" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="6" x="28" y="30.5" xo="28" yo="30.5" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="6" x="109" y="30.5" xo="109" yo="30.5" xl="0" yl="0" d="5" depth="13" millD="0"/>
+          <operation id="5" type="grooving" side="6" subtype="1" x="13.5" y="28.5" bindH="false" bindV="true" xa="11.5" ya="26.5" width="4" length="350" depth="5" closed="0" millD="4" article="" freza="0" BHXAvailable="true"/>
+        </operations>
+      </detail>
+      <detail id="13" material="1" barcode="" amount="2" width="532" height="125.8" description="17.Боковина ящика правая" slidingfilling="0" timestamp="0" multiplicity="1" grain="1" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="4" x="9" y="23" xo="9" yo="23" xl="0" yl="0" d="4.5" depth="32" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="4" x="9" y="104" xo="9" yo="104" xl="0" yl="0" d="4.5" depth="32" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="2" x="10" y="23" xo="10" yo="23" xl="0" yl="0" d="8" depth="34" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="6" x="34" y="23" xo="34" yo="23" xl="0" yl="0" d="15" depth="13" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="2" x="10" y="104" xo="10" yo="104" xl="0" yl="0" d="8" depth="34" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="6" x="34" y="104" xo="34" yo="104" xl="0" yl="0" d="15" depth="13" millD="0"/>
+          <operation id="7" type="drilling" subtype="0" side="1" x="36" y="40" xo="36" yo="40" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="8" type="drilling" subtype="0" side="1" x="484" y="40" xo="484" yo="40" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="9" type="grooving" side="6" subtype="0" x="0" y="8.5" bindH="false" bindV="true" xa="0" ya="8" width="4" length="532" depth="5" closed="0" millD="0" article="" freza="0" BHXAvailable="true"/>
+        </operations>
+      </detail>
+      <detail id="14" material="1" barcode="" amount="1" width="464" height="100" description="18.1верх1" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="2" x="9" y="50.6" xo="9" yo="50.6" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="4" x="9" y="50.6" xo="9" yo="50.6" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="1" x="97" y="50.6" xo="97" yo="50.6" xl="0" yl="0" d="5" depth="30" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="1" x="352" y="50.6" xo="352" yo="50.6" xl="0" yl="0" d="5" depth="30" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="15" material="1" barcode="" amount="1" width="701.4" height="553.9" description="19.2левая_верт" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="1" x="693" y="478.9" xo="693" yo="478.9" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="1" x="693" y="57" xo="693" yo="57" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="1" x="693" y="78.2" xo="693" yo="78.2" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="1" x="693" y="529.5" xo="693" yo="529.5" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="2" x="9" y="25" xo="9" yo="25" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="2" x="9" y="530.1" xo="9" yo="530.1" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="7" type="drilling" subtype="0" side="6" x="623.5" y="35" xo="623.5" yo="35" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="8" type="drilling" subtype="0" side="6" x="623.5" y="451" xo="623.5" yo="451" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="9" type="drilling" subtype="0" side="6" x="62" y="35" xo="62" yo="35" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="10" type="drilling" subtype="0" side="6" x="62" y="451" xo="62" yo="451" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="11" type="drilling" subtype="0" side="1" x="547" y="127" xo="547" yo="127" xl="0" yl="0" d="5" depth="30" millD="0"/>
+          <operation id="12" type="drilling" subtype="0" side="1" x="177" y="127" xo="177" yo="127" xl="0" yl="0" d="5" depth="30" millD="0"/>
+          <operation id="13" type="drilling" subtype="0" side="1" x="547" y="447" xo="547" yo="447" xl="0" yl="0" d="5" depth="30" millD="0"/>
+          <operation id="14" type="drilling" subtype="0" side="1" x="177" y="447" xo="177" yo="447" xl="0" yl="0" d="5" depth="30" millD="0"/>
+          <operation id="15" type="drilling" subtype="0" side="6" x="426.5" y="35" xo="426.5" yo="35" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="16" type="drilling" subtype="0" side="6" x="426.5" y="451" xo="426.5" yo="451" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="17" type="drilling" subtype="0" side="6" x="229.5" y="35" xo="229.5" yo="35" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="18" type="drilling" subtype="0" side="6" x="229.5" y="451" xo="229.5" yo="451" xl="0" yl="0" d="2" depth="5" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="16" material="1" barcode="" amount="1" width="689.5" height="493" description="20.1Дверь_тумбы" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="6" x="615.5" y="22.5" xo="615.5" yo="22.5" xl="0" yl="0" d="35" depth="12" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="6" x="638" y="32" xo="638" yo="32" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="6" x="593" y="32" xo="593" yo="32" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="6" x="117.5" y="22.5" xo="117.5" yo="22.5" xl="0" yl="0" d="35" depth="12" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="6" x="140" y="32" xo="140" yo="32" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="6" x="95" y="32" xo="95" yo="32" xl="0" yl="0" d="2" depth="5" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="17" material="1" barcode="" amount="1" width="553.9" height="498.8" description="21.1дно тумбы" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="1" x="25" y="491" xo="25" yo="491" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="1" x="530.1" y="491" xo="530.1" yo="491" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="1" x="25" y="9" xo="25" yo="9" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="1" x="530.1" y="9" xo="530.1" yo="9" xl="0" yl="0" d="8" depth="30" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="18" material="1" barcode="" amount="1" width="701.4" height="553.9" description="22.2првая верт" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="4" x="9" y="530.1" xo="9" yo="530.1" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="4" x="9" y="25" xo="9" yo="25" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="1" x="9" y="67.6" xo="9" yo="67.6" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="1" x="9" y="504.5" xo="9" yo="504.5" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="6" x="89" y="37" xo="89" yo="37" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="6" x="121" y="37" xo="121" yo="37" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="7" type="drilling" subtype="0" side="6" x="604" y="37" xo="604" yo="37" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="8" type="drilling" subtype="0" side="6" x="636" y="37" xo="636" yo="37" xl="0" yl="0" d="2" depth="5" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="19" material="1" barcode="" amount="1" width="698.8" height="553.9" description="23.2дно тумбы" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="1" x="281" y="25" xo="281" yo="25" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="1" x="281" y="530.1" xo="281" yo="530.1" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="1" x="691" y="25" xo="691" yo="25" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="1" x="691" y="530.1" xo="691" yo="530.1" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="1" x="9" y="530.1" xo="9" yo="530.1" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="1" x="9" y="25" xo="9" yo="25" xl="0" yl="0" d="8" depth="30" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="20" material="1" barcode="" amount="1" width="683.4" height="553.9" description="24.2середина_верт" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="4" x="9" y="25" xo="9" yo="25" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="4" x="9" y="530.1" xo="9" yo="530.1" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="2" x="9" y="57" xo="9" yo="57" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="2" x="9" y="529.5" xo="9" yo="529.5" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="2" x="9" y="479.5" xo="9" yo="479.5" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="6" x="60.5" y="35" xo="60.5" yo="35" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="7" type="drilling" subtype="0" side="6" x="60.5" y="451" xo="60.5" yo="451" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="8" type="drilling" subtype="0" side="6" x="622" y="35" xo="622" yo="35" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="9" type="drilling" subtype="0" side="6" x="622" y="451" xo="622" yo="451" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="10" type="drilling" subtype="0" side="6" x="257.5" y="35" xo="257.5" yo="35" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="11" type="drilling" subtype="0" side="6" x="257.5" y="451" xo="257.5" yo="451" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="12" type="drilling" subtype="0" side="6" x="454.5" y="35" xo="454.5" yo="35" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="13" type="drilling" subtype="0" side="6" x="454.5" y="451" xo="454.5" yo="451" xl="0" yl="0" d="2" depth="5" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="21" material="1" barcode="" amount="1" width="664" height="70" description="25.2верх1" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="2" x="9" y="25" xo="9" yo="25" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="2" x="9" y="46.2" xo="9" yo="46.2" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="1" x="401" y="25" xo="401" yo="25" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="4" x="9" y="35.6" xo="9" yo="35.6" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="1" x="567" y="35" xo="567" yo="35" xl="0" yl="0" d="5" depth="30" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="1" x="152" y="35" xo="152" yo="35" xl="0" yl="0" d="5" depth="30" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="22" material="1" barcode="" amount="1" width="664" height="100" description="26.2верх1" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="2" x="9" y="25" xo="9" yo="25" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="2" x="9" y="75.6" xo="9" yo="75.6" xl="0" yl="0" d="4.5" depth="32" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="1" x="401" y="75.6" xo="401" yo="75.6" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="1" x="401" y="25.6" xo="401" yo="25.6" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="4" x="9" y="50.6" xo="9" yo="50.6" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="1" x="87" y="50.6" xo="87" yo="50.6" xl="0" yl="0" d="5" depth="30" millD="0"/>
+          <operation id="7" type="drilling" subtype="0" side="1" x="557" y="50.6" xo="557" yo="50.6" xl="0" yl="0" d="5" depth="30" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="23" material="1" barcode="" amount="2" width="550.5" height="462" description="27.1Панель1полка" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="false" machineCode="0">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+      </detail>
+      <detail id="24" material="1" barcode="" amount="1" width="1198.8" height="83.8" description="28.цоколь" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="false" machineCode="0">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+      </detail>
+      <detail id="25" material="1" barcode="" amount="1" width="701.4" height="553.9" description="29.1левая_верт" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="1" x="693" y="67.6" xo="693" yo="67.6" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="1" x="693" y="504.5" xo="693" yo="504.5" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="2" x="9" y="530.1" xo="9" yo="530.1" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="2" x="9" y="25" xo="9" yo="25" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="6" x="214" y="540" xo="214" yo="540" xl="0" yl="0" d="5" depth="10" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="6" x="214" y="32" xo="214" yo="32" xl="0" yl="0" d="5" depth="10" millD="0"/>
+          <operation id="7" type="drilling" subtype="0" side="6" x="447.7" y="540" xo="447.7" yo="540" xl="0" yl="0" d="5" depth="10" millD="0"/>
+          <operation id="8" type="drilling" subtype="0" side="6" x="447.7" y="32" xo="447.7" yo="32" xl="0" yl="0" d="5" depth="10" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="26" material="1" barcode="" amount="1" width="364.8" height="70.8" description="30.Задняя панель ящика" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="1" x="357" y="22.5" xo="357" yo="22.5" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="1" x="357" y="49.5" xo="357" yo="49.5" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="1" x="9" y="22.5" xo="9" yo="22.5" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="1" x="9" y="49.5" xo="9" yo="49.5" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="5" type="grooving" side="6" subtype="0" x="0" y="8.5" bindH="false" bindV="true" xa="-0.5" ya="8" width="4" length="365.8" depth="5" closed="1" millD="0" article="" freza="0" BHXAvailable="true"/>
+        </operations>
+      </detail>
+      <detail id="27" material="1" barcode="" amount="1" width="701.4" height="553.9" description="31.1првая верт" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="1" x="9" y="67.6" xo="9" yo="67.6" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="1" x="9" y="504.5" xo="9" yo="504.5" xl="0" yl="0" d="8" depth="30" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="4" x="9" y="530.1" xo="9" yo="530.1" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="4" x="9" y="25" xo="9" yo="25" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="5" type="drilling" subtype="0" side="6" x="488" y="540" xo="488" yo="540" xl="0" yl="0" d="5" depth="10" millD="0"/>
+          <operation id="6" type="drilling" subtype="0" side="6" x="488" y="32" xo="488" yo="32" xl="0" yl="0" d="5" depth="10" millD="0"/>
+          <operation id="7" type="drilling" subtype="0" side="6" x="254.3" y="540" xo="254.3" yo="540" xl="0" yl="0" d="5" depth="10" millD="0"/>
+          <operation id="8" type="drilling" subtype="0" side="6" x="254.3" y="32" xo="254.3" yo="32" xl="0" yl="0" d="5" depth="10" millD="0"/>
+          <operation id="9" type="drilling" subtype="0" side="6" x="87" y="37" xo="87" yo="37" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="10" type="drilling" subtype="0" side="6" x="119" y="37" xo="119" yo="37" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="11" type="drilling" subtype="0" side="6" x="585" y="37" xo="585" yo="37" xl="0" yl="0" d="2" depth="5" millD="0"/>
+          <operation id="12" type="drilling" subtype="0" side="6" x="617" y="37" xo="617" yo="37" xl="0" yl="0" d="2" depth="5" millD="0"/>
+        </operations>
+      </detail>
+      <detail id="28" material="1" barcode="" amount="1" width="464" height="70" description="32.1верх1" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="true" machineCode="1">
+        <edges joint="0">
+          <left type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="drilling" subtype="0" side="2" x="9" y="35.6" xo="9" yo="35.6" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="2" type="drilling" subtype="0" side="4" x="9" y="35.6" xo="9" yo="35.6" xl="0" yl="0" d="4.5" depth="34" millD="0"/>
+          <operation id="3" type="drilling" subtype="0" side="1" x="97" y="35" xo="97" yo="35" xl="0" yl="0" d="5" depth="30" millD="0"/>
+          <operation id="4" type="drilling" subtype="0" side="1" x="342" y="35" xo="342" yo="35" xl="0" yl="0" d="5" depth="30" millD="0"/>
+        </operations>
+      </detail>
+    </details>
+    <products/>
+  </viyar>
+</project>

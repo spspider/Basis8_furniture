@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="windows-1251" ?><project currency="" version="1" costOperation="0" costMaterial="0" cost="0" date="" orderDate="" productFilter="false">
+<viyar version="23">
+<order delivery="" uuid="" />
+<creator id="Bazis2Viyar" version="5.3" bazisVersion="85" />
+<constructor id="dsp" site="" />
+<materials>
+<material id="1" type="sheet" article="34008" name="ДСП лам. Egger H 1122 Древесина белая ST22" width="3000" height="3000" thickness="18" />
+<material id="2" type="band" article="26657" name="501.03 Кромка ПВХ SM Белый Гладкий 22х0,6 Kromag" height="22" thickness="0.6" />
+<material id="3" type="band" article="35425" name="REHAU ABS 78335 Белый альпийский PE 23х2мм" height="23" thickness="2" />
+</materials>
+<details>
+<detail id="1" material="1" barcode="" amount="1" width="567.8" height="439.4" multiplicity="1" grain="0" description=".194.ПринЛев" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="45.5" y="35.0" xo="45.5" yo="35.0" xl="0" yl="0" d="2" depth="10.0" />
+<operation id="2" type="drilling" side="6" x="45.5" y="99.0" xo="45.5" yo="99.0" xl="0" yl="0" d="2" depth="10.0" />
+<operation id="3" type="drilling" side="6" x="45.5" y="195.0" xo="45.5" yo="195.0" xl="0" yl="0" d="2" depth="10.0" />
+<operation id="4" type="drilling" side="6" x="45.5" y="291.0" xo="45.5" yo="291.0" xl="0" yl="0" d="2" depth="10.0" />
+<operation id="5" type="drilling" side="1" x="9.0" y="25.0" xo="9.0" yo="25.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="6" type="drilling" side="1" x="560.0" y="25.0" xo="560.0" yo="25.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="7" type="drilling" side="1" x="9.0" y="415.0" xo="9.0" yo="415.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="8" type="drilling" side="1" x="560.0" y="415.0" xo="560.0" yo="415.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="9" type="drilling" side="6" x="504.5" y="382.5" xo="504.5" yo="382.5" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="10" type="drilling" side="6" x="504.5" y="414.5" xo="504.5" yo="414.5" xl="0" yl="0" d="2" depth="11.0" />
+</operations>
+</detail>
+<detail id="2" material="1" barcode="" amount="1" width="567.8" height="439.4" multiplicity="1" grain="0" description=".195.ПринЛев" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="523.5" y="35.0" xo="523.5" yo="35.0" xl="0" yl="0" d="2" depth="10.0" />
+<operation id="2" type="drilling" side="6" x="523.5" y="99.0" xo="523.5" yo="99.0" xl="0" yl="0" d="2" depth="10.0" />
+<operation id="3" type="drilling" side="6" x="523.5" y="195.0" xo="523.5" yo="195.0" xl="0" yl="0" d="2" depth="10.0" />
+<operation id="4" type="drilling" side="6" x="523.5" y="291.0" xo="523.5" yo="291.0" xl="0" yl="0" d="2" depth="10.0" />
+<operation id="5" type="drilling" side="1" x="560.0" y="25.0" xo="560.0" yo="25.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="6" type="drilling" side="1" x="9.0" y="25.0" xo="9.0" yo="25.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="7" type="drilling" side="1" x="560.0" y="415.0" xo="560.0" yo="415.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="8" type="drilling" side="1" x="9.0" y="415.0" xo="9.0" yo="415.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="9" type="drilling" side="6" x="64.5" y="382.5" xo="64.5" yo="382.5" xl="0" yl="0" d="2" depth="11.0" />
+<operation id="10" type="drilling" side="6" x="64.5" y="414.5" xo="64.5" yo="414.5" xl="0" yl="0" d="2" depth="11.0" />
+</operations>
+</detail>
+<detail id="3" material="1" barcode="" amount="1" width="434.5" height="404.0" multiplicity="1" grain="0" description=".196.принт_Дно ящика" marker="0">
+<edges>
+<left type="kromka" param="3" drop="0" />
+<top type="kromka" param="3" drop="0" />
+<right type="kromka" param="3" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
+</edges>
+</detail>
+</details>
+</viyar>
+</project>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<project currency="грн" version="1" costOperation="0" costMaterial="0" cost="0" date="2020-10-19 11:40:30" orderDate="" productFilter="false">
+  <viyar version="24">
+    <user name="Пауков Сергей Васильевич" phone="0919689776" email="spspider95@gmail.com" uuid="4a0eb06d-b471-11ea-a207-005056b8c5f1" fileName="столешница Вияр2991_50мм" ZakazBazar=""/>
+    <order delivery="d" uuid=""/>
+    <constructor id="stol" fromTumbariki="" site="dp.viyar.ua" xnc="1" robot="G"/>
+    <materials>
+      <material id="1" type="sheet" offcut_l="20" offcut_t="0" offcut_r="0" offcut_b="0" userOffcut="0" directCut="0" article="96512" typeMat="stol" guid="54839" oldGuid="54839" uuid="8d85436e-a49e-11e1-bc48-0025904a3a00" name="EGGER F041/ST15/R3-1U (L019) Камень Сонора белый 4100х600х38мм + пластик 2,5м" width="4100" height="600" thickness="38" isCliental="0">
+        <parts/>
+      </material>
+      <material id="2" type="band" article="71278" guid="70398" oldGuid="70398" uuid="81842b92-3797-11ea-9f85-005056b13af7" name="F041 Кромка ABS Камень Сонора белый ST15 43х1,5мм (25 м.п.) EGGER" height="43" thickness="1.5" markingColor="rgb(139,0,255)"/>
+    </materials>
+    <details edge="eva" typeEdge="edge">
+      <detail id="1" material="1" barcode="" amount="1" width="2990" height="600" description="столешница мойка" slidingfilling="0" timestamp="1593022070" multiplicity="1" grain="1" decoratedSide="" marker="1" BHXAvailable="false" machineCode="2">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+        <operations>
+          <operation id="1" type="shapeByPattern" patternId="rectangular" ext="0" shiftX="1945" shiftY="50" sizeH="550" sizeV="400" radius="10" joint="0" edgeMaterial="" depth="-1" isFullZ="1"/>
+          <operation id="2" type="shapeByPattern" patternId="rectangular" ext="0" shiftX="540" shiftY="50" sizeH="560" sizeV="480" radius="10" joint="0" edgeMaterial="" depth="-1" isFullZ="1"/>
+        </operations>
+      </detail>
+      <detail id="2" material="1" barcode="" amount="1" width="752" height="600" description="столешница угол правый" slidingfilling="0" timestamp="1593022095" multiplicity="1" grain="1" decoratedSide="" marker="1" BHXAvailable="false" machineCode="0">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+      </detail>
+      <detail id="3" material="1" barcode="" amount="1" width="302" height="600" description="" slidingfilling="0" timestamp="1602615252" multiplicity="1" grain="1" decoratedSide="" marker="0" BHXAvailable="false" machineCode="0">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+      </detail>
+    </details>
+    <products/>
+  </viyar>
+</project>

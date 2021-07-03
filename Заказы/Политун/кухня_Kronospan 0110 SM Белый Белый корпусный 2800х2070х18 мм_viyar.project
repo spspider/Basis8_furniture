@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="windows-1251" ?><project currency="" version="1" costOperation="0" costMaterial="0" cost="0" date="" orderDate="" productFilter="false">
+<viyar version="23">
+<order delivery="" uuid="" />
+<creator id="Bazis2Viyar" version="5.3" bazisVersion="85" />
+<constructor id="dsp" site="" />
+<materials>
+<material id="1" type="sheet" article="29702" name="Kronospan 0110 SM Белый/Белый корпусный 2800х2070х18 мм" width="3000" height="3000" thickness="18" />
+<material id="2" type="band" article="26657" name="501.03 Кромка ПВХ SM Белый Гладкий 22х0,6 Kromag" height="22" thickness="0.6" />
+<material id="3" type="band" article="26658" name="501.03 Кромка ПВХ SM Белый Гладкий 22х2 Kromag" height="22" thickness="2" />
+</materials>
+<details>
+<detail id="1" material="1" barcode="" amount="2" width="793.0" height="208.0" multiplicity="1" grain="0" description=".1.полка книг" marker="0">
+<edges>
+<left type="kromka" param="3" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="kromka" param="3" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="1" x="786.0" y="25.0" xo="786.0" yo="25.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="2" type="drilling" side="1" x="11.0" y="25.0" xo="11.0" yo="25.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="3" type="drilling" side="1" x="786.0" y="185.0" xo="786.0" yo="185.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="4" type="drilling" side="1" x="11.0" y="185.0" xo="11.0" yo="185.0" xl="0" yl="0" d="8" depth="23.0" />
+</operations>
+</detail>
+<detail id="2" material="1" barcode="" amount="1" width="579.0" height="119.0" multiplicity="1" grain="0" description=".2.ПОЛИТУНФасад ящика" marker="0">
+<edges>
+<left type="kromka" param="3" drop="0" />
+<top type="kromka" param="3" drop="0" />
+<right type="kromka" param="3" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="39.5" y="43.0" xo="39.5" yo="43.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="2" type="drilling" side="6" x="39.5" y="70.0" xo="39.5" yo="70.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="3" type="drilling" side="6" x="543.5" y="43.0" xo="543.5" yo="43.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="4" type="drilling" side="6" x="543.5" y="70.0" xo="543.5" yo="70.0" xl="0" yl="0" d="5" depth="13.0" />
+<operation id="5" type="drilling" side="1" x="339.5" y="61.5" xo="339.5" yo="61.5" xl="0" yl="0" d="5" depth="23.0" />
+<operation id="6" type="drilling" side="1" x="243.5" y="61.5" xo="243.5" yo="61.5" xl="0" yl="0" d="5" depth="23.0" />
+<operation id="7" type="grooving" side="6" subtype="0" x="37.5" y="29.0" width="4.0" length="508.0" closed="0" depth="5.0" />
+</operations>
+</detail>
+<detail id="3" material="1" barcode="" amount="1" width="492.0" height="70.8" multiplicity="1" grain="0" description=".3.ПОЛИТУНБоковина ящика правая" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="4" x="9.0" y="22.5" xo="9.0" yo="22.5" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="2" type="drilling" side="4" x="9.0" y="49.5" xo="9.0" yo="49.5" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="3" type="drilling" side="2" x="10.0" y="22.5" xo="10.0" yo="22.5" xl="0" yl="0" d="8" depth="34.0" />
+<operation id="4" type="drilling" side="6" x="34.0" y="22.5" xo="34.0" yo="22.5" xl="0" yl="0" d="15" depth="13.0" />
+<operation id="5" type="drilling" side="2" x="10.0" y="49.5" xo="10.0" yo="49.5" xl="0" yl="0" d="8" depth="34.0" />
+<operation id="6" type="drilling" side="6" x="34.0" y="49.5" xo="34.0" yo="49.5" xl="0" yl="0" d="15" depth="13.0" />
+<operation id="7" type="drilling" side="1" x="36.0" y="35.0" xo="36.0" yo="35.0" xl="0" yl="0" d="2" depth="10.0" />
+<operation id="8" type="drilling" side="1" x="453.0" y="35.0" xo="453.0" yo="35.0" xl="0" yl="0" d="2" depth="10.0" />
+<operation id="9" type="grooving" side="6" subtype="0" x="0" y="8.5" width="4.0" length="492.0" closed="0" depth="5.0" />
+</operations>
+</detail>
+<detail id="4" material="1" barcode="" amount="2" width="208.0" height="210.0" multiplicity="1" grain="0" description=".4.полка аолинки" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="kromka" param="3" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="5" x="185.0" y="9.0" xo="185.0" yo="9.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="2" type="drilling" side="3" x="185.0" y="9.0" xo="185.0" yo="9.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="3" type="drilling" side="5" x="25.0" y="9.0" xo="25.0" yo="9.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="4" type="drilling" side="3" x="25.0" y="9.0" xo="25.0" yo="9.0" xl="0" yl="0" d="5" depth="34.0" />
+</operations>
+</detail>
+<detail id="5" material="1" barcode="" amount="1" width="492.0" height="70.8" multiplicity="1" grain="0" description=".5.ПОЛИТУНБоковина ящика левая" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="4" x="9.0" y="22.5" xo="9.0" yo="22.5" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="2" type="drilling" side="4" x="9.0" y="49.5" xo="9.0" yo="49.5" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="3" type="drilling" side="2" x="8.0" y="22.5" xo="8.0" yo="22.5" xl="0" yl="0" d="8" depth="34.0" />
+<operation id="4" type="drilling" side="1" x="34.0" y="22.5" xo="34.0" yo="22.5" xl="0" yl="0" d="15" depth="13.0" />
+<operation id="5" type="drilling" side="2" x="8.0" y="49.5" xo="8.0" yo="49.5" xl="0" yl="0" d="8" depth="34.0" />
+<operation id="6" type="drilling" side="1" x="34.0" y="49.5" xo="34.0" yo="49.5" xl="0" yl="0" d="15" depth="13.0" />
+<operation id="7" type="drilling" side="6" x="36.0" y="35.0" xo="36.0" yo="35.0" xl="0" yl="0" d="2" depth="10.0" />
+<operation id="8" type="drilling" side="6" x="453.0" y="35.0" xo="453.0" yo="35.0" xl="0" yl="0" d="2" depth="10.0" />
+<operation id="9" type="grooving" side="1" subtype="0" x="0" y="8.5" width="4.0" length="492.0" closed="0" depth="5.0" />
+</operations>
+</detail>
+<detail id="6" material="1" barcode="" amount="2" width="699.0" height="519.4" multiplicity="1" grain="0" description=".6.ПОЛИТУНдух првая верт" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="4" x="9.0" y="22.5" xo="9.0" yo="22.5" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="2" type="drilling" side="1" x="594.0" y="22.0" xo="594.0" yo="22.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="3" type="drilling" side="1" x="594.0" y="478.0" xo="594.0" yo="478.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="4" type="drilling" side="4" x="9.0" y="498.0" xo="9.0" yo="498.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="5" type="drilling" side="6" x="657.5" y="35.0" xo="657.5" yo="35.0" xl="0" yl="0" d="2" depth="10.0" />
+<operation id="6" type="drilling" side="6" x="657.5" y="387.0" xo="657.5" yo="387.0" xl="0" yl="0" d="2" depth="10.0" />
+</operations>
+</detail>
+<detail id="7" material="1" barcode="" amount="1" width="584.8" height="519.4" multiplicity="1" grain="0" description=".7.ПОЛИТУНдух дно тумбы" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="1" x="9.0" y="22.5" xo="9.0" yo="22.5" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="2" type="drilling" side="1" x="577.0" y="22.6" xo="577.0" yo="22.6" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="3" type="drilling" side="1" x="9.0" y="498.0" xo="9.0" yo="498.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="4" type="drilling" side="1" x="577.0" y="498.0" xo="577.0" yo="498.0" xl="0" yl="0" d="8" depth="23.0" />
+</operations>
+</detail>
+<detail id="8" material="1" barcode="" amount="1" width="522.8" height="70.8" multiplicity="1" grain="0" description=".8.ПОЛИТУНЗадняя панель ящика" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="1" x="515.0" y="22.5" xo="515.0" yo="22.5" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="2" type="drilling" side="1" x="515.0" y="49.5" xo="515.0" yo="49.5" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="3" type="drilling" side="1" x="9.0" y="22.5" xo="9.0" yo="22.5" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="4" type="drilling" side="1" x="9.0" y="49.5" xo="9.0" yo="49.5" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="5" type="grooving" side="6" subtype="0" x="0" y="8.5" width="4.0" length="524.0" closed="0" depth="5.0" />
+</operations>
+</detail>
+<detail id="9" material="1" barcode="" amount="1" width="584.8" height="88.8" multiplicity="1" grain="0" description=".9.ПОЛИТУНцоколь" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+</detail>
+<detail id="10" material="1" barcode="" amount="1" width="550.0" height="499.4" multiplicity="1" grain="0" description=".10.ПОЛИТУНдух дно печки" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="2" x="9.0" y="22.0" xo="9.0" yo="22.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="2" type="drilling" side="4" x="9.0" y="22.0" xo="9.0" yo="22.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="3" type="drilling" side="2" x="9.0" y="478.0" xo="9.0" yo="478.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="4" type="drilling" side="4" x="9.0" y="478.0" xo="9.0" yo="478.0" xl="0" yl="0" d="5" depth="34.0" />
+</operations>
+</detail>
+</details>
+</viyar>
+</project>

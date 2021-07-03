@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Options>
+  <Items>
+    <Item Name="Версия">
+      <Enabled>N</Enabled>
+      <Value>5.3</Value>
+    </Item>
+    <Item Name="Материал деталей">
+      <Value>56946; ЛХДФ Kronospan 0101 Белый 3мм</Value>
+      <ItemIndex>2</ItemIndex>
+    </Item>
+    <Item Name="Формат наименования деталей">
+      <Value>Позиция.Наименование</Value>
+    </Item>
+    <Item Name="Присоединять фурнитуру">
+      <Value>Y</Value>
+    </Item>
+    <Item Name="Файл проекта ViyarPro">
+      <Value>D:\My Documents\Documents_Windows\Bazis8\проекты мебели\кухня\полностью вся кухня_ЛХДФ Kronospan 0101 Белый 3мм_viyar.project</Value>
+    </Item>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+  </Items>
+</Options>

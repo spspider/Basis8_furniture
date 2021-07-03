@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="windows-1251" ?><project currency="" version="1" costOperation="0" costMaterial="0" cost="0" date="" orderDate="" productFilter="false">
+<viyar version="23">
+<order delivery="" uuid="" />
+<creator id="Bazis2Viyar" version="5.3" bazisVersion="85" />
+<constructor id="dsp" site="" />
+<materials>
+<material id="1" type="sheet" article="29702" name="Kronospan 0110 SM Белый/Белый корпусный 2800х2070х18 мм" width="3000" height="3000" thickness="18" />
+<material id="2" type="band" article="26657" name="501.03 Кромка ПВХ SM Белый Гладкий 22х0,6 Kromag" height="22" thickness="0.6" />
+<material id="3" type="band" article="14335" name="REHAU АВS 78006 Белый бриллиант 43х2мм" height="43" thickness="2" />
+</materials>
+<details>
+<detail id="1" material="1" barcode="" amount="1" width="1680.8" height="419.4" multiplicity="1" grain="0" description="кровать.1.кр_низ" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="1" x="841.0" y="256.5" xo="841.0" yo="256.5" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="2" type="drilling" side="1" x="1655.0" y="75.0" xo="1655.0" yo="75.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="3" type="drilling" side="1" x="9.0" y="75.0" xo="9.0" yo="75.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="4" type="drilling" side="1" x="1673.0" y="50.0" xo="1673.0" yo="50.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="5" type="drilling" side="1" x="27.0" y="50.0" xo="27.0" yo="50.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="6" type="drilling" side="1" x="1673.0" y="370.0" xo="1673.0" yo="370.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="7" type="drilling" side="1" x="27.0" y="370.0" xo="27.0" yo="370.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="8" type="drilling" side="1" x="1655.0" y="395.0" xo="1655.0" yo="395.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="9" type="drilling" side="1" x="9.0" y="395.0" xo="9.0" yo="395.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="10" type="drilling" side="1" x="58.0" y="356.0" xo="58.0" yo="356.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="11" type="drilling" side="1" x="154.0" y="356.0" xo="154.0" yo="356.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="12" type="drilling" side="1" x="1624.0" y="356.0" xo="1624.0" yo="356.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="13" type="drilling" side="1" x="1528.0" y="356.0" xo="1528.0" yo="356.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="14" type="drilling" side="1" x="841.0" y="356.0" xo="841.0" yo="356.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="15" type="drilling" side="1" x="921.0" y="356.0" xo="921.0" yo="356.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="16" type="drilling" side="1" x="763.0" y="356.0" xo="763.0" yo="356.0" xl="0" yl="0" d="8" depth="23.0" />
+</operations>
+</detail>
+<detail id="2" material="1" barcode="" amount="1" width="2010.0" height="278.4" multiplicity="1" grain="0" description="кровать.2.кр_царга1" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="kromka" param="2" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="2" x="9.0" y="254.0" xo="9.0" yo="254.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="2" type="drilling" side="4" x="9.0" y="72.5" xo="9.0" yo="72.5" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="3" type="drilling" side="2" x="9.0" y="72.5" xo="9.0" yo="72.5" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="4" type="drilling" side="5" x="1005.0" y="9.0" xo="1005.0" yo="9.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="5" type="cornerOperation" corner="3" subtype="2" x="331.7" y="182.2" edgeMaterial="2" edgeCovering="0" />
+</operations>
+</detail>
+<detail id="3" material="1" barcode="" amount="1" width="1680.8" height="419.4" multiplicity="1" grain="0" description="кровать.3.кр_верх" marker="0">
+<edges>
+<left type="kromka" param="2" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="kromka" param="2" drop="0" />
+<bottom type="kromka" param="2" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="1" x="841.0" y="75.0" xo="841.0" yo="75.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="2" type="drilling" side="1" x="841.0" y="256.5" xo="841.0" yo="256.5" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="3" type="drilling" side="1" x="27.0" y="75.0" xo="27.0" yo="75.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="4" type="drilling" side="1" x="1673.0" y="75.0" xo="1673.0" yo="75.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="5" type="drilling" side="1" x="9.0" y="50.0" xo="9.0" yo="50.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="6" type="drilling" side="1" x="1655.0" y="50.0" xo="1655.0" yo="50.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="7" type="drilling" side="1" x="9.0" y="370.0" xo="9.0" yo="370.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="8" type="drilling" side="1" x="1655.0" y="370.0" xo="1655.0" yo="370.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="9" type="drilling" side="1" x="27.0" y="395.0" xo="27.0" yo="395.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="10" type="drilling" side="1" x="1673.0" y="395.0" xo="1673.0" yo="395.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="11" type="drilling" side="1" x="1624.0" y="356.0" xo="1624.0" yo="356.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="12" type="drilling" side="1" x="1528.0" y="356.0" xo="1528.0" yo="356.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="13" type="drilling" side="1" x="58.0" y="356.0" xo="58.0" yo="356.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="14" type="drilling" side="1" x="154.0" y="356.0" xo="154.0" yo="356.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="15" type="drilling" side="1" x="841.0" y="356.0" xo="841.0" yo="356.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="16" type="drilling" side="1" x="761.0" y="356.0" xo="761.0" yo="356.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="17" type="drilling" side="1" x="919.0" y="356.0" xo="919.0" yo="356.0" xl="0" yl="0" d="8" depth="23.0" />
+</operations>
+</detail>
+<detail id="4" material="1" barcode="" amount="1" width="2010.0" height="200.0" multiplicity="1" grain="0" description="кровать.4.Горизонтальная1" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="1" x="1005.0" y="100.0" xo="1005.0" yo="100.0" xl="0" yl="0" d="8" depth="23.0" />
+<operation id="2" type="drilling" side="6" x="988.0" y="119.5" xo="988.0" yo="119.5" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="3" type="drilling" side="6" x="1022.0" y="119.5" xo="1022.0" yo="119.5" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="4" type="drilling" side="6" x="988.0" y="85.5" xo="988.0" yo="85.5" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="5" type="drilling" side="6" x="1022.0" y="85.5" xo="1022.0" yo="85.5" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="6" type="drilling" side="2" x="9.0" y="100.0" xo="9.0" yo="100.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="7" type="drilling" side="4" x="9.0" y="100.0" xo="9.0" yo="100.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="8" type="drilling" side="2" x="9.0" y="20.0" xo="9.0" yo="20.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="9" type="drilling" side="4" x="9.0" y="20.0" xo="9.0" yo="20.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="10" type="drilling" side="2" x="9.0" y="178.0" xo="9.0" yo="178.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="11" type="drilling" side="4" x="9.0" y="178.0" xo="9.0" yo="178.0" xl="0" yl="0" d="5" depth="32.0" />
+</operations>
+</detail>
+<detail id="5" material="1" barcode="" amount="1" width="2010.0" height="140.0" multiplicity="1" grain="0" description="кровать.5.царга левая1" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="78.0" y="87.0" xo="78.0" yo="87.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="2" type="drilling" side="6" x="112.0" y="87.0" xo="112.0" yo="87.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="3" type="drilling" side="6" x="78.0" y="53.0" xo="78.0" yo="53.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="4" type="drilling" side="6" x="112.0" y="53.0" xo="112.0" yo="53.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="5" type="drilling" side="6" x="1932.0" y="53.0" xo="1932.0" yo="53.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="6" type="drilling" side="6" x="1898.0" y="53.0" xo="1898.0" yo="53.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="7" type="drilling" side="6" x="1932.0" y="87.0" xo="1932.0" yo="87.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="8" type="drilling" side="6" x="1898.0" y="87.0" xo="1898.0" yo="87.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="9" type="drilling" side="2" x="9.0" y="118.0" xo="9.0" yo="118.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="10" type="drilling" side="4" x="9.0" y="118.0" xo="9.0" yo="118.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="11" type="drilling" side="2" x="9.0" y="22.0" xo="9.0" yo="22.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="12" type="drilling" side="4" x="9.0" y="22.0" xo="9.0" yo="22.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="13" type="drilling" side="3" x="1005.0" y="9.0" xo="1005.0" yo="9.0" xl="0" yl="0" d="5" depth="14.0" />
+<operation id="14" type="drilling" side="3" x="95.0" y="9.0" xo="95.0" yo="9.0" xl="0" yl="0" d="5" depth="14.0" />
+<operation id="15" type="drilling" side="3" x="1915.0" y="9.0" xo="1915.0" yo="9.0" xl="0" yl="0" d="5" depth="14.0" />
+<operation id="16" type="drilling" side="3" x="1458.0" y="9.0" xo="1458.0" yo="9.0" xl="0" yl="0" d="5" depth="14.0" />
+<operation id="17" type="drilling" side="3" x="544.0" y="9.0" xo="544.0" yo="9.0" xl="0" yl="0" d="5" depth="14.0" />
+</operations>
+</detail>
+<detail id="6" material="1" barcode="" amount="1" width="2010.0" height="140.0" multiplicity="1" grain="0" description="кровать.6.царга левая1" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="" param="0" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="6" x="78.0" y="87.0" xo="78.0" yo="87.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="2" type="drilling" side="6" x="112.0" y="87.0" xo="112.0" yo="87.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="3" type="drilling" side="6" x="78.0" y="53.0" xo="78.0" yo="53.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="4" type="drilling" side="6" x="112.0" y="53.0" xo="112.0" yo="53.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="5" type="drilling" side="6" x="1932.0" y="53.0" xo="1932.0" yo="53.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="6" type="drilling" side="6" x="1898.0" y="53.0" xo="1898.0" yo="53.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="7" type="drilling" side="6" x="1932.0" y="87.0" xo="1932.0" yo="87.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="8" type="drilling" side="6" x="1898.0" y="87.0" xo="1898.0" yo="87.0" xl="0" yl="0" d="2" depth="3.0" />
+<operation id="9" type="drilling" side="4" x="9.0" y="118.0" xo="9.0" yo="118.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="10" type="drilling" side="2" x="9.0" y="118.0" xo="9.0" yo="118.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="11" type="drilling" side="4" x="9.0" y="22.0" xo="9.0" yo="22.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="12" type="drilling" side="2" x="9.0" y="22.0" xo="9.0" yo="22.0" xl="0" yl="0" d="5" depth="32.0" />
+<operation id="13" type="drilling" side="3" x="95.0" y="9.0" xo="95.0" yo="9.0" xl="0" yl="0" d="5" depth="14.0" />
+<operation id="14" type="drilling" side="3" x="1005.0" y="9.0" xo="1005.0" yo="9.0" xl="0" yl="0" d="5" depth="14.0" />
+<operation id="15" type="drilling" side="3" x="1915.0" y="9.0" xo="1915.0" yo="9.0" xl="0" yl="0" d="5" depth="14.0" />
+<operation id="16" type="drilling" side="3" x="552.0" y="9.0" xo="552.0" yo="9.0" xl="0" yl="0" d="5" depth="14.0" />
+</operations>
+</detail>
+<detail id="7" material="1" barcode="" amount="1" width="2010.0" height="418.0" multiplicity="2" grain="0" description="кровать.7.кр_правая Сращ.(2)" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="4" x="9.0" y="75.0" xo="9.0" yo="75.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="2" type="drilling" side="2" x="9.0" y="75.0" xo="9.0" yo="75.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="3" type="drilling" side="4" x="27.0" y="50.0" xo="27.0" yo="50.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="4" type="drilling" side="2" x="27.0" y="50.0" xo="27.0" yo="50.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="5" type="drilling" side="4" x="27.0" y="370.0" xo="27.0" yo="370.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="6" type="drilling" side="2" x="27.0" y="370.0" xo="27.0" yo="370.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="7" type="drilling" side="4" x="9.0" y="395.0" xo="9.0" yo="395.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="8" type="drilling" side="2" x="9.0" y="395.0" xo="9.0" yo="395.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="9" type="drilling" side="1" x="95.0" y="356.0" xo="95.0" yo="356.0" xl="0" yl="0" d="8" depth="41.0" />
+<operation id="10" type="drilling" side="1" x="1005.0" y="356.0" xo="1005.0" yo="356.0" xl="0" yl="0" d="8" depth="41.0" />
+<operation id="11" type="drilling" side="1" x="1915.0" y="356.0" xo="1915.0" yo="356.0" xl="0" yl="0" d="8" depth="41.0" />
+<operation id="12" type="drilling" side="1" x="552.0" y="356.0" xo="552.0" yo="356.0" xl="0" yl="0" d="8" depth="41.0" />
+</operations>
+</detail>
+<detail id="8" material="1" barcode="" amount="1" width="2010.0" height="418.0" multiplicity="2" grain="0" description="кровать.8.кр_левая Сращ.(2)" marker="0">
+<edges>
+<left type="" param="0" drop="0" />
+<top type="" param="0" drop="0" />
+<right type="" param="0" drop="0" />
+<bottom type="kromka" param="3" drop="0" />
+</edges>
+<operations>
+<operation id="1" type="drilling" side="2" x="27.0" y="75.0" xo="27.0" yo="75.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="2" type="drilling" side="4" x="27.0" y="75.0" xo="27.0" yo="75.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="3" type="drilling" side="2" x="9.0" y="50.0" xo="9.0" yo="50.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="4" type="drilling" side="4" x="9.0" y="50.0" xo="9.0" yo="50.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="5" type="drilling" side="2" x="9.0" y="370.0" xo="9.0" yo="370.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="6" type="drilling" side="4" x="9.0" y="370.0" xo="9.0" yo="370.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="7" type="drilling" side="2" x="27.0" y="395.0" xo="27.0" yo="395.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="8" type="drilling" side="4" x="27.0" y="395.0" xo="27.0" yo="395.0" xl="0" yl="0" d="5" depth="34.0" />
+<operation id="9" type="drilling" side="1" x="1005.0" y="356.0" xo="1005.0" yo="356.0" xl="0" yl="0" d="8" depth="41.0" />
+<operation id="10" type="drilling" side="1" x="95.0" y="356.0" xo="95.0" yo="356.0" xl="0" yl="0" d="8" depth="41.0" />
+<operation id="11" type="drilling" side="1" x="1915.0" y="356.0" xo="1915.0" yo="356.0" xl="0" yl="0" d="8" depth="41.0" />
+<operation id="12" type="drilling" side="1" x="1458.0" y="356.0" xo="1458.0" yo="356.0" xl="0" yl="0" d="8" depth="41.0" />
+<operation id="13" type="drilling" side="1" x="544.0" y="356.0" xo="544.0" yo="356.0" xl="0" yl="0" d="8" depth="41.0" />
+</operations>
+</detail>
+</details>
+</viyar>
+</project>

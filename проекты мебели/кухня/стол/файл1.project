@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+<project currency="грн" version="1" costOperation="0" costMaterial="0" cost="0" date="2020-12-02 20:06:22" orderDate="" productFilter="false">
+  <viyar version="24">
+    <user name="Пауков Сергей Васильевич" phone="0919689776" email="spspider95@gmail.com" uuid="4a0eb06d-b471-11ea-a207-005056b8c5f1" fileName="кухонный стол_Egger U 216 Камель бежевый (Камэ) ST9_viyar" creator="Bazis2Viyar" ZakazBazar=""/>
+    <order delivery="d" uuid=""/>
+    <constructor id="dsp" fromTumbariki="" site="dp.viyar.ua" xnc="0"/>
+    <materials>
+      <material id="1" type="sheet" offcut_l="10" offcut_t="10" offcut_r="5" offcut_b="5" userOffcut="0" directCut="0" article="55" typeMat="dsp" guid="0000" oldGuid="0000" uuid="93d632db-d7e8-4178-98e2-641bb27485f7" name="Материал заказчика (ДСП)" width="720" height="2060" thickness="18" isCliental="1" oneSided="">
+        <parts>
+          <part width="720" height="2060" quantity="1"/>
+        </parts>
+      </material>
+      <material id="2" type="band" article="26657" guid="59415" oldGuid="59415" uuid="4f3422d3-bb9c-11e5-b667-005056b18742" name="501.03 Кромка ПВХ SM Белый Гладкий 22х0,6 Kromag" height="22" thickness="0.5" markingColor="rgb(255,0,0)"/>
+      <material id="3" type="band" article="26658" guid="59468" oldGuid="59468" uuid="7e1aba52-bb9c-11e5-b667-005056b18742" name="501.03 Кромка ПВХ SM Белый Гладкий 22х2 Kromag" height="22" thickness="2" markingColor="rgb(0,0,255)"/>
+    </materials>
+    <details edge="Eva" typeEdge="edge">
+      <detail id="1" material="1" barcode="" amount="2" width="2009.4" height="166" description=".6.левая" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="false" machineCode="0">
+        <edges joint="0">
+          <left type="kromka" param="2" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+      </detail>
+      <detail id="2" material="1" barcode="" amount="1" width="566" height="68" description=".7.вШкаф" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="false" machineCode="0">
+        <edges joint="0">
+          <left type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+      </detail>
+      <detail id="3" material="1" barcode="" amount="1" width="928" height="166" description=".8.верх" slidingfilling="0" timestamp="0" multiplicity="1" grain="0" decoratedSide="" marker="0" BHXAvailable="false" machineCode="0">
+        <edges joint="0">
+          <left type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <top type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <right type="" param="0" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+          <bottom type="kromka" param="3" cut="0" drop="0" curv="0" pur="0" chamfer45="0"/>
+        </edges>
+      </detail>
+    </details>
+    <products/>
+  </viyar>
+</project>
