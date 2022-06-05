@@ -8,7 +8,7 @@
 <material id="2" type="band" article="26657" name="501.03 Кромка ПВХ SM Белый Гладкий 22х0,6 Kromag" height="22" thickness="0.6" />
 </materials>
 <details>
-<detail id="1" material="1" barcode="" amount="1" width="564.0" height="299.4" multiplicity="1" grain="0" description="1.верх" marker="0">
+<detail id="1" material="1" barcode="" amount="1" width="564.0" height="299.4" multiplicity="1" grain="0" description=".1.верх" marker="0">
 <edges>
 <left type="" param="0" drop="0" />
 <top type="" param="0" drop="0" />
@@ -23,7 +23,7 @@
 <operation id="5" type="grooving" side="6" subtype="0" x="0" y="287.0" width="5.0" length="564.0" closed="0" depth="9.0" />
 </operations>
 </detail>
-<detail id="2" material="1" barcode="" amount="1" width="598.8" height="299.4" multiplicity="1" grain="0" description="2.низ" marker="0">
+<detail id="2" material="1" barcode="" amount="1" width="598.8" height="299.4" multiplicity="1" grain="0" description=".2.низ" marker="0">
 <edges>
 <left type="kromka" param="2" drop="0" />
 <top type="" param="0" drop="0" />
@@ -38,7 +38,7 @@
 <operation id="5" type="grooving" side="6" subtype="0" x="0" y="287.0" width="5.0" length="600.0" closed="0" depth="9.0" />
 </operations>
 </detail>
-<detail id="3" material="1" barcode="" amount="1" width="1071.4" height="299.4" multiplicity="1" grain="0" description="3.лев" marker="0">
+<detail id="3" material="1" barcode="" amount="1" width="1071.4" height="299.4" multiplicity="1" grain="0" description=".3.лев" marker="0">
 <edges>
 <left type="" param="0" drop="0" />
 <top type="" param="0" drop="0" />
@@ -56,7 +56,7 @@
 <operation id="8" type="cornerOperation" corner="3" subtype="3" x="99.0" y="13.0" ext="1" edgeMaterial="" edgeCovering="0" />
 </operations>
 </detail>
-<detail id="4" material="1" barcode="" amount="1" width="1071.4" height="299.4" multiplicity="1" grain="0" description="4.прав" marker="0">
+<detail id="4" material="1" barcode="" amount="1" width="1071.4" height="299.4" multiplicity="1" grain="0" description=".4.прав" marker="0">
 <edges>
 <left type="" param="0" drop="0" />
 <top type="" param="0" drop="0" />
