@@ -6,7 +6,8 @@
       <Value>5.3</Value>
     </Item>
     <Item Name="Материал деталей">
-      <Value>171 UM/BS MDF Gri Ardezie 2800x1220x18 mm Kronospan</Value>
+      <Value>Pal melaminat Casmir 5981BS 2800x2070x18mm</Value>
+      <ItemIndex>1</ItemIndex>
     </Item>
     <Item Name="Формат наименования деталей">
       <Value>Позиция.Наименование</Value>
