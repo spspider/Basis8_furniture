@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Settings>
   <Form>
-    <Left>172</Left>
-    <Top>85</Top>
+    <Left>2203</Left>
+    <Top>231</Top>
     <Width>1099</Width>
     <Height>719</Height>
   </Form>
@@ -19,4 +19,7 @@
     <Indent>4</Indent>
     <BraceStyle>collapse</BraceStyle>
   </Formatter>
+  <FormEditor>
+    <Capture>10</Capture>
+  </FormEditor>
 </Settings>

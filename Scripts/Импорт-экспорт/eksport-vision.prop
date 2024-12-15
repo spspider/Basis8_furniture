@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Options>
+  <Items>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+    <Item Name="Material">
+      <Value>Material 2</Value>
+      <ItemIndex>1</ItemIndex>
+    </Item>
+  </Items>
+</Options>
