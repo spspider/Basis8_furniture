@@ -43,7 +43,7 @@ function isDraftChild(child) {
     return false;
 }
 function Material(nameCode, thickness) {
-    var arr = splitNameCode(nameCode);
+    var arr = [nameCode, ''];
     var name = arr[0];
     var multiplicity = 1;
     if ((name.search(/сращ.\(3\)/i) != -1) || (name.search(/cращ.\(3\)/i) != -1)) {
@@ -78,9 +78,9 @@ function Material(nameCode, thickness) {
         }
     });
 }
+
 Model.forEachPanel(function (modelPanel) {
     if ((modelPanel != undefined) && (modelPanel != null) && (isAsmChild(modelPanel) == false) && (isDraftChild(modelPanel) == false)) {
-        console.log(modelPanel);
         materials.add(new Material(modelPanel.MaterialName, modelPanel.Thickness));
     }
 });
@@ -97,9 +97,11 @@ if (materials.length > 0) {
         materialsList += materials[i].comboValue + '\n';
     }
     materialsList = materialsList.substr(0, materialsList.length - 1);
-
+    var prop = Action.Properties;
     // Create a new Combo property for material selection
-    var materialCombo = prop.NewCombo('Материал деталей', materialsList);
+    var materialCombo = prop.NewCombo('Material', materialsList);
+
+    Action.Continue();
 }
 
 
