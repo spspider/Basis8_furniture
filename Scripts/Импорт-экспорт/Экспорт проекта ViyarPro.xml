@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Options>
   <Items>
+    <Item Name="Версия">
+      <Enabled>N</Enabled>
+      <Value>5.3</Value>
+    </Item>
     <Item Name="Материал деталей">
       <Value>PAL not printed</Value>
     </Item>
@@ -8,7 +12,7 @@
       <Value>Позиция.Наименование</Value>
     </Item>
     <Item Name="Присоединять фурнитуру"/>
-    <Item Name="Eksport file name">
+    <Item Name="Файл проекта ViyarPro">
       <Value>C:\Users\spspi\OneDrive\Документы\Bazis8\проекты мебели\Romania\my_room\boxes_in_my_room_PAL not printed_viyar.project</Value>
     </Item>
     <Item>

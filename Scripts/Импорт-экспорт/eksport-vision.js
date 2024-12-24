@@ -1,7 +1,7 @@
 FileOptions = 'eksport-vision.prop';
 
 Prop = Action.Properties;
-Btn = Prop.NewButton('eksport')
+Btn = Prop.NewButton('export')
 
 var materials = [];
 materials.add = function (material) {
@@ -15,7 +15,9 @@ materials.add = function (material) {
 materials.getIndex = function (comboValue) {
     for (var i = 0; i < this.length; i++) {
         if (this[i].comboValue == comboValue) {
-            return i;
+            return i;    
+
+
         }
     }
     return -1;
