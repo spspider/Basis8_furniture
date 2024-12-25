@@ -6,15 +6,13 @@
       <Value>5.3</Value>
     </Item>
     <Item Name="Материал деталей">
-      <Value>PAL not printed</Value>
+      <Value>Pal melaminat Casmir 5981BS 2800x2070x18mm</Value>
+      <ItemIndex>1</ItemIndex>
     </Item>
     <Item Name="Формат наименования деталей">
       <Value>Позиция.Наименование</Value>
     </Item>
     <Item Name="Присоединять фурнитуру"/>
-    <Item Name="Файл проекта ViyarPro">
-      <Value>C:\Users\spspi\OneDrive\Документы\Bazis8\проекты мебели\Romania\my_room\boxes_in_my_room_PAL not printed_viyar.project</Value>
-    </Item>
     <Item>
       <ReadOnly>Y</ReadOnly>
     </Item>
