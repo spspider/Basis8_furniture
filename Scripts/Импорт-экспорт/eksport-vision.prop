@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Options>
+  <Items>
+    <Item>
+      <ReadOnly>Y</ReadOnly>
+    </Item>
+    <Item Name="Material">
+      <Value>Pal melaminat Casmir 5981BS 2800x2070x18mm</Value>
+      <ItemIndex>1</ItemIndex>
+    </Item>
+  </Items>
+</Options>
