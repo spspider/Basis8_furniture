@@ -10,7 +10,8 @@
       <ItemIndex>1</ItemIndex>
     </Item>
     <Item Name="Формат наименования деталей">
-      <Value>Позиция.Наименование</Value>
+      <Value>Обозначение.Наименование</Value>
+      <ItemIndex>1</ItemIndex>
     </Item>
     <Item Name="Присоединять фурнитуру"/>
     <Item>

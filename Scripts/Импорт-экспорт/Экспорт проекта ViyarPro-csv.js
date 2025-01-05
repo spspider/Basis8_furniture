@@ -644,26 +644,27 @@ function exportViyarPro() {
 
 function exportCSV(panels) {
     var csvRows = [];
-    csvRows.push("ID;Material;Name;Thickness;Width;Height;Quantity;leftButt;topButt;rightButt;bottomButt");
+    csvRows.push("Nr.;DenumirePiesa;Decor;Lungime;Latime;Nr.Buc.;Fibra;Fata;Spate;Stanga;Dreapta");
 
     panels.forEach((panel, index) => {
-        var leftButt = panel.leftButt && panel.leftButt.isExist ? "x" : "";
-        var topButt = panel.topButt && panel.topButt.isExist ? "x" : "";
-        var rightButt = panel.rightButt && panel.rightButt.isExist ? "x" : "";
-        var bottomButt = panel.bottomButt && panel.bottomButt.isExist ? "x" : "";
-
+        var leftButt = panel.leftButt && panel.leftButt.isExist ? panel.leftButt.name.toString() : "";
+        var topButt = panel.topButt && panel.topButt.isExist ? panel.topButt.name.toString() : "";
+        var rightButt = panel.rightButt && panel.rightButt.isExist ? panel.rightButt.name.toString() : "";
+        var bottomButt = panel.bottomButt && panel.bottomButt.isExist ? panel.bottomButt.name.toString() : "";
+        var name_panel = panel.name.trim().replace(/;/g, '.');
+        var name_material_panel = panel.material.name;
         var row = [
             index + 1,
-            panel.material.name,
-            panel.name,
-            panel.thickness,
-            panel.length,
-            panel.width,
+            "\"" + name_panel + " " + panel.artPos + "\"",
+            name_material_panel,
+            Math.round(panel.width),
+            Math.round(panel.length),
             panel.quantity,
-            leftButt,
+            "",
             topButt,
-            rightButt,
-            bottomButt
+            bottomButt,
+            leftButt,
+            rightButt
         ].join(";");
 
         csvRows.push(row);

@@ -100,9 +100,9 @@ var sawingLog = '';
 var debugLog = '';
 
 var panels = [];
-panels.add = function(panel) {
+panels.add = function (panel) {
     for (var i = 0; i < this.length; i++) {
-        if(this[i].isEqual(panel)) {
+        if (this[i].isEqual(panel)) {
             this[i].quantity++;
             return;
         }
@@ -160,22 +160,22 @@ function Panel(modelPanel, material) {
         var elem = modelPanel.Contour[i];
         var butt = new Butt(elem);
         if ((elem.ElType == ELEM_LINE_TYPE) && butt.isExist) {
-            if(cmpr(elem.Pos1.x, contourMinX) && cmpr(elem.Pos2.x, contourMinX)) {
+            if (cmpr(elem.Pos1.x, contourMinX) && cmpr(elem.Pos2.x, contourMinX)) {
                 if (cmpr(elem.ObjLength(), contourSizeY)) {
                     this.leftButt = butt;
                 }
             }
-            else if(cmpr(elem.Pos1.y, contourMaxY) && cmpr(elem.Pos2.y, contourMaxY)) {
+            else if (cmpr(elem.Pos1.y, contourMaxY) && cmpr(elem.Pos2.y, contourMaxY)) {
                 if (cmpr(elem.ObjLength(), contourSizeX)) {
                     this.topButt = butt;
                 }
             }
-            else if(cmpr(elem.Pos1.x, contourMaxX) && cmpr(elem.Pos2.x, contourMaxX)) {
+            else if (cmpr(elem.Pos1.x, contourMaxX) && cmpr(elem.Pos2.x, contourMaxX)) {
                 if (cmpr(elem.ObjLength(), contourSizeY)) {
                     this.rightButt = butt;
                 }
             }
-            else if(cmpr(elem.Pos1.y, contourMinY) && cmpr(elem.Pos2.y, contourMinY)) {
+            else if (cmpr(elem.Pos1.y, contourMinY) && cmpr(elem.Pos2.y, contourMinY)) {
                 if (cmpr(elem.ObjLength(), contourSizeX)) {
                     this.bottomButt = butt;
                 }
@@ -198,7 +198,7 @@ function Panel(modelPanel, material) {
     if (modelPanel.Cuts != undefined) {
         for (var i = 0; i < modelPanel.Cuts.Count; i++) {
             var panelCut = modelPanel.Cuts[i];
-            var cut = { };
+            var cut = {};
             cut.name = panelCut.Name;
             cut.sign = panelCut.Sign;
             cut.mode = panelCut.CutMode;
@@ -228,7 +228,7 @@ function Panel(modelPanel, material) {
     this.cuts = cuts;
 
     var holes = [];
-    globalHoles.forEach(function(globalHole) {
+    globalHoles.forEach(function (globalHole) {
         if (globalHole.passed == false) {
             holePos = modelPanel.GlobalToObject(globalHole.pos);
             holeEndPos = modelPanel.GlobalToObject(globalHole.endPos);
@@ -249,7 +249,7 @@ function Panel(modelPanel, material) {
                         }
                     }
                     addHole(holes, holePos.x - minX, holePos.y - minY, 0, 0, 0, 1,
-                                   globalHole.diameter, holeType, holeDepth);
+                        globalHole.diameter, holeType, holeDepth);
                 }
                 else if (cmpr(holePos.z, panelThickness) && cmpr(holeDir.z, -1)) {
                     if ((globalHole.depth + MIN_HOLE_MARGIN) < panelThickness) {
@@ -265,25 +265,25 @@ function Panel(modelPanel, material) {
                         }
                     }
                     addHole(holes, holePos.x - minX, holePos.y - minY, panelThickness, 0, 0, -1,
-                                   globalHole.diameter, holeType, holeDepth);
+                        globalHole.diameter, holeType, holeDepth);
                 }
                 else if ((holePos.z < 0) && cmpr(holeDir.z, 1) &&
-                         (holeEndPos.z > MIN_HOLE_DEPTH) && ((holeEndPos.z + MIN_HOLE_MARGIN) < panelThickness)) {
+                    (holeEndPos.z > MIN_HOLE_DEPTH) && ((holeEndPos.z + MIN_HOLE_MARGIN) < panelThickness)) {
                     addHole(holes, holePos.x - minX, holePos.y - minY, 0, 0, 0, 1,
-                                   globalHole.diameter, HOLE_BLIND_TYPE, holeEndPos.z);
+                        globalHole.diameter, HOLE_BLIND_TYPE, holeEndPos.z);
                 }
                 else if ((holePos.z > panelThickness) && cmpr(holeDir.z, -1) &&
-                         (holeEndPos.z > MIN_HOLE_MARGIN) && ((holeEndPos.z + MIN_HOLE_DEPTH) < panelThickness)) {
+                    (holeEndPos.z > MIN_HOLE_MARGIN) && ((holeEndPos.z + MIN_HOLE_DEPTH) < panelThickness)) {
                     addHole(holes, holePos.x - minX, holePos.y - minY, panelThickness, 0, 0, -1,
-                                   globalHole.diameter, HOLE_BLIND_TYPE, panelThickness - holeEndPos.z);
+                        globalHole.diameter, HOLE_BLIND_TYPE, panelThickness - holeEndPos.z);
                 }
                 else if ((holePos.z < 0) && cmpr(holeDir.z, 1) && ((holeEndPos.z + MIN_HOLE_MARGIN) >= panelThickness)) {
                     addHole(holes, holePos.x - minX, holePos.y - minY, 0, 0, 0, 1,
-                                   globalHole.diameter, HOLE_THRU_TYPE, panelThickness);
+                        globalHole.diameter, HOLE_THRU_TYPE, panelThickness);
                 }
                 else if ((holePos.z > panelThickness) && cmpr(holeDir.z, -1) && (holeEndPos.z <= MIN_HOLE_MARGIN)) {
                     addHole(holes, holePos.x - minX, holePos.y - minY, panelThickness, 0, 0, -1,
-                                   globalHole.diameter, HOLE_THRU_TYPE, panelThickness);
+                        globalHole.diameter, HOLE_THRU_TYPE, panelThickness);
                 }
                 else if (cmpr(holeEndPos.z, 0) && cmpr(holeDir.z, -1)) {
                     if ((globalHole.depth + MIN_HOLE_MARGIN) < panelThickness) {
@@ -299,7 +299,7 @@ function Panel(modelPanel, material) {
                         }
                     }
                     addHole(holes, holeEndPos.x - minX, holeEndPos.y - minY, 0, 0, 0, 1,
-                                   globalHole.diameter, holeType, holeDepth);
+                        globalHole.diameter, holeType, holeDepth);
                 }
                 else if (cmpr(holeEndPos.z, panelThickness) && cmpr(holeDir.z, 1)) {
                     if ((globalHole.depth + MIN_HOLE_MARGIN) < panelThickness) {
@@ -315,13 +315,13 @@ function Panel(modelPanel, material) {
                         }
                     }
                     addHole(holes, holeEndPos.x - minX, holeEndPos.y - minY, panelThickness, 0, 0, -1,
-                                   globalHole.diameter, holeType, holeDepth);
+                        globalHole.diameter, holeType, holeDepth);
                 }
             }
             if (cmpr(holeDir.z, 0) &&
-             (((cmpr(holeDir.x, -1) || cmpr(holeDir.x, 1)) && cmpr(holeDir.y, 0)) ||
-              ((cmpr(holeDir.y, -1) || cmpr(holeDir.y, 1)) && cmpr(holeDir.x, 0))) &&
-               (holePos.z > 0) && (holePos.z < panelThickness) && modelPanel.Contour.IsPointInside(holeEndPos)) {
+                (((cmpr(holeDir.x, -1) || cmpr(holeDir.x, 1)) && cmpr(holeDir.y, 0)) ||
+                    ((cmpr(holeDir.y, -1) || cmpr(holeDir.y, 1)) && cmpr(holeDir.x, 0))) &&
+                (holePos.z > 0) && (holePos.z < panelThickness) && modelPanel.Contour.IsPointInside(holeEndPos)) {
                 holeAxis = NewContour();
                 holeAxis.AddLine(holePos.x, holePos.y, holeEndPos.x, holeEndPos.y);
                 for (var i = 0; i < modelPanel.Contour.Count; i++) {
@@ -332,30 +332,30 @@ function Panel(modelPanel, material) {
                         var holePosX = holePos.x - minX;
                         var holePosY = holePos.y - minY;
                         var holeDepth = globalHole.depth;
-                        
+
                         if (cmpr(holeDir.x, -1) && (cmpr(holePosX, panelLength) || (holePosX > panelLength))) {
                             holePosX = panelLength;
                             holeDepth = distanceToHoleEndPos;
                             addHole(holes, holePosX, holePosY, holePos.z, -1, 0, 0,
-                                           globalHole.diameter, HOLE_BLIND_TYPE, holeDepth);
+                                globalHole.diameter, HOLE_BLIND_TYPE, holeDepth);
                         }
                         else if (cmpr(holeDir.x, 1) && (cmpr(holePosX, 0) || (holePosX < 0))) {
                             holePosX = 0;
                             holeDepth = distanceToHoleEndPos;
                             addHole(holes, holePosX, holePosY, holePos.z, 1, 0, 0,
-                                           globalHole.diameter, HOLE_BLIND_TYPE, holeDepth);
+                                globalHole.diameter, HOLE_BLIND_TYPE, holeDepth);
                         }
                         else if (cmpr(holeDir.y, -1) && (cmpr(holePosY, panelWidth) || (holePosY > panelWidth))) {
                             holePosY = panelWidth;
                             holeDepth = distanceToHoleEndPos;
                             addHole(holes, holePosX, holePosY, holePos.z, 0, -1, 0,
-                                           globalHole.diameter, HOLE_BLIND_TYPE, holeDepth);
+                                globalHole.diameter, HOLE_BLIND_TYPE, holeDepth);
                         }
                         else if (cmpr(holeDir.y, 1) && (cmpr(holePosY, 0) || (holePosY < 0))) {
                             holePosY = 0;
                             holeDepth = distanceToHoleEndPos;
                             addHole(holes, holePosX, holePosY, holePos.z, 0, 1, 0,
-                                           globalHole.diameter, HOLE_BLIND_TYPE, holeDepth);
+                                globalHole.diameter, HOLE_BLIND_TYPE, holeDepth);
                         }
                         if (cmpr(distanceToHolePos, 0)) {
                             globalHole.passed = true;
@@ -368,7 +368,7 @@ function Panel(modelPanel, material) {
     });
     this.holes = holes;
 
-    this.isEqual = function(panel) {
+    this.isEqual = function (panel) {
         if ((this.artPos == panel.artPos) && (this.designation == panel.designation)) {
             return true;
         }
@@ -401,15 +401,15 @@ function addHole(holes, posX, posY, posZ, dirX, dirY, dirZ, diameter, type, dept
 }
 
 var furns = [];
-furns.getIndex = function(furn) {
+furns.getIndex = function (furn) {
     for (var i = 0; i < this.length; i++) {
-        if(this[i].isEqual(furn)) {
+        if (this[i].isEqual(furn)) {
             return i;
         }
     }
     return -1;
 };
-furns.add = function(furn) {
+furns.add = function (furn) {
     arr = furn.code.split(',');
     if (arr.length > 1) {
         for (var j = 0; j < arr.length; j++) {
@@ -444,7 +444,7 @@ function Furn(nameCode, artPos) {
     this.artPos = artPos;
     this.quantity = 1;
 
-    this.isEqual = function(furn) {
+    this.isEqual = function (furn) {
         if (this.code == furn.code) {
             return true;
         }
@@ -453,16 +453,16 @@ function Furn(nameCode, artPos) {
 }
 
 var butts = [];
-butts.add = function(butt) {
+butts.add = function (butt) {
     for (var i = 0; i < this.length; i++) {
-        if(this[i].isEqual(butt)) {
+        if (this[i].isEqual(butt)) {
             return;
         }
     }
     this.push(butt);
 };
 
-butts.getIndex = function(butt) {
+butts.getIndex = function (butt) {
     for (var i = 0; i < this.length; i++) {
         if (this[i].isEqual(butt)) {
             return i;
@@ -491,7 +491,7 @@ function Butt(elem) {
         this.isExist = false;
     }
 
-    this.isEqual = function(butt) {
+    this.isEqual = function (butt) {
         if (this.isExist && butt.isExist) {
             if ((this.name == butt.name) && (this.code == butt.code) &&
                 (this.width == butt.width) && (this.thickness == butt.thickness)) {
@@ -506,17 +506,17 @@ function Butt(elem) {
 }
 
 var materials = [];
-materials.add = function(material) {
+materials.add = function (material) {
     for (var i = 0; i < this.length; i++) {
-        if(this[i].isEqual(material)) {
+        if (this[i].isEqual(material)) {
             return;
         }
     }
     this.push(material);
 };
-materials.getIndex = function(comboValue) {
+materials.getIndex = function (comboValue) {
     for (var i = 0; i < this.length; i++) {
-        if(this[i].comboValue == comboValue) {
+        if (this[i].comboValue == comboValue) {
             return i;
         }
     }
@@ -542,14 +542,14 @@ function Material(nameCode, thickness) {
     this.thickness = thickness / multiplicity;
     this.multiplicity = multiplicity;
 
-    this.isEqual = function(material) {
+    this.isEqual = function (material) {
         if ((this.name == material.name) && (this.code == material.code) && (this.thickness == material.thickness)) {
             return true;
         }
         return false;
     };
     Object.defineProperty(this, "comboValue", {
-        get: function() {
+        get: function () {
             if (this.code != '') {
                 return this.code + '; ' + this.name;
             }
@@ -560,7 +560,7 @@ function Material(nameCode, thickness) {
     });
 }
 
-Model.forEachPanel(function(modelPanel) {
+Model.forEachPanel(function (modelPanel) {
     if ((modelPanel != undefined) && (modelPanel != null) && (isAsmChild(modelPanel) == false) && (isDraftChild(modelPanel) == false)) {
         materials.add(new Material(modelPanel.MaterialName, modelPanel.Thickness));
     }
@@ -568,7 +568,7 @@ Model.forEachPanel(function(modelPanel) {
 
 var exportFileName;
 
-if(system.fileExists(OBJ_TREE_FILE_NAME) == false) {
+if (system.fileExists(OBJ_TREE_FILE_NAME) == false) {
     alert('Файл ' + OBJ_TREE_FILE_NAME + ' не найден!');
 }
 else if (activateModelTree()) {
@@ -605,7 +605,7 @@ else if (activateModelTree()) {
         var exportFileSelector = prop.NewSelector('Файл проекта ViyarPro');
         var exportBtn = prop.NewButton('Экспортировать');
 
-        if(system.fileExists(PROPERTIES_FILE)) {
+        if (system.fileExists(PROPERTIES_FILE)) {
             prop.Load(PROPERTIES_FILE);
         }
         else {
@@ -622,7 +622,7 @@ else if (activateModelTree()) {
         exportFileSelector.Value = exportFileName;
         Action.Hint = VIYAR_PRO_PROJECT_FILE + exportFileName;
 
-        exportFileSelector.OnClick = function() {
+        exportFileSelector.OnClick = function () {
             if (system.apiVersion < 1000) {
                 var newFileName = system.askFileName('project');
             }
@@ -640,7 +640,7 @@ else if (activateModelTree()) {
             }
         };
 
-        exportBtn.OnClick = function() {
+        exportBtn.OnClick = function () {
             if (exportFileSelector.Value != '') {
                 exportViyarPro();
                 prop.Save(PROPERTIES_FILE);
@@ -651,12 +651,12 @@ else if (activateModelTree()) {
             }
         };
 
-        exportFileSelector.OnChange = function() {
+        exportFileSelector.OnChange = function () {
             exportFileName = exportFileSelector.Value;
             Action.Hint = VIYAR_PRO_PROJECT_FILE + exportFileName;
         };
 
-        materialCombo.OnChange = function() {
+        materialCombo.OnChange = function () {
             exportFileName = getExportFileName();
             exportFileSelector.Value = exportFileName;
             Action.Hint = VIYAR_PRO_PROJECT_FILE + exportFileName;
@@ -681,8 +681,8 @@ function exportViyarPro() {
                 xotree.xmlDecl = '<?xml version="1.0" encoding="windows-1251" ?>';
                 xml = xotree.writeXML(XMLDoc);
 
-                if(system.fileExists(exportFileName)) {
-                    if(confirm('Перезаписать файл? \n' + exportFileName)) {
+                if (system.fileExists(exportFileName)) {
+                    if (confirm('Перезаписать файл? \n' + exportFileName)) {
                         system.writeTextFile(exportFileName, xml);
                         report();
                     } else {
@@ -701,7 +701,7 @@ function exportViyarPro() {
 
 function report() {
     var log = 'В ViyarPro необходимо:\r\n';
-    log +='- проверить проект на соответствие технологическим ограничениям;\r\n' + '\r\n';
+    log += '- проверить проект на соответствие технологическим ограничениям;\r\n' + '\r\n';
     if (contourLog != '') {
         log += '- дополнить чертежами или добавить обработки контура деталей:\r\n' + contourLog + '\r\n';
     }
@@ -720,7 +720,7 @@ function report() {
     var logFileName = exportFileName.substr(0, exportFileName.length - '.project'.length) + '.txt';
     system.writeTextFile(logFileName, log);
     if (DEBUG == false) {
-        if(system.fileExists(NOTEPAD_DEFAULT_PATH)) {
+        if (system.fileExists(NOTEPAD_DEFAULT_PATH)) {
             system.exec(NOTEPAD_DEFAULT_PATH, '/a "%PATH%"'.replace('%PATH%', logFileName));
         }
         else {
@@ -739,7 +739,7 @@ function readModel() {
     var hintTime = startTime;
 
     Action.Hint = 'Обработка фурнитуры... ';
-    Model.forEach(function(modelObj) {
+    Model.forEach(function (modelObj) {
         if ((modelObj != undefined) && (modelObj != null)) {
             if ((modelObj.constructor.name == "TFastener") || (modelObj.constructor.name == "TAsmKit") || (modelObj.constructor.name == "TFurnAsm")) {
                 if ((isAsmKitChild(modelObj) == false) && (isAsmChild(modelObj) == false) && (isDraftChild(modelObj) == false)) {
@@ -761,27 +761,27 @@ function readModel() {
         if (ac < bc) { return -1; }
         return 0;
     });
-    Model.forEach( function(modelObj) {
+    Model.forEach(function (modelObj) {
         if ((modelObj != undefined) && (modelObj.Holes != null)) {
             for (var i = 0; i < modelObj.Holes.Count; i++) {
                 var modelHole = modelObj.Holes[i];
                 globalHoles.push(new GlobalHole(modelHole,
-                                                modelObj.ToGlobal(modelHole.Position),
-                                                modelObj.ToGlobal(modelHole.EndPosition()),
-                                                modelObj.NToGlobal(modelHole.Direction)));
+                    modelObj.ToGlobal(modelHole.Position),
+                    modelObj.ToGlobal(modelHole.EndPosition()),
+                    modelObj.NToGlobal(modelHole.Direction)));
             }
         }
-    } );
+    });
     materialIndex = materials.getIndex(materialCombo.Value);
     if (materialIndex == -1) {
         alert('Отсутствует экспортируемый материал!');
         return false;
     }
-    Model.forEachPanel(function(modelPanel) {
+    Model.forEachPanel(function (modelPanel) {
         if ((exitFlag == false) && (modelPanel != undefined) && (modelPanel != null) &&
             (modelPanel.Bent == false) && (isAsmChild(modelPanel) == false) && (isDraftChild(modelPanel) == false) && (modelPanel.ArtPos != '') &&
             (modelPanel.Plastics.Count == 0)) {
-            if((Date.now() - hintTime) > HINT_TIMEOUT) {
+            if ((Date.now() - hintTime) > HINT_TIMEOUT) {
                 Action.Hint = 'Обработка панели... ' + modelPanel.Name;
                 hintTime = Date.now();
             }
@@ -793,8 +793,8 @@ function readModel() {
                 limitHolesDepth(panel);
                 panels.add(panel);
             }
-            if((Date.now() - alertTime) > ALERT_TIMEOUT) {
-                if(confirm('Требуется длительное время. Продолжить? \n')) {
+            if ((Date.now() - alertTime) > ALERT_TIMEOUT) {
+                if (confirm('Требуется длительное время. Продолжить? \n')) {
                     alertTime = Date.now();
                 }
                 else {
@@ -958,7 +958,7 @@ function splitNameCode(fullName) {
     }
     name = name.trim().replace(/["']/g, '');
     code = code.trim();
-    return [ name, code ];
+    return [name, code];
 }
 
 function cmpr(val1, val2) {
@@ -1209,7 +1209,7 @@ function getExportFileName() {
     }
     materialName = materialName.replace(/[\/\\:*?"<>|]/g, ' ');
     if (DEBUG) {
-        var version =  '_b' + system.apiVersion + '_s' + SCRIPT_VERSION;
+        var version = '_b' + system.apiVersion + '_s' + SCRIPT_VERSION;
     } else {
         var version = '';
     }
@@ -1252,7 +1252,7 @@ function createDocNode() {
         }
     };
     var viyarNode = docNode.project.viyar;
-    
+
     viyarNode.materials = {};
     viyarNode.materials.material = [];
 
@@ -1269,7 +1269,7 @@ function createDocNode() {
     materialNode['-thickness'] = rnds(materials[index].thickness);
     viyarNode.materials.material.push(materialNode);
 
-    butts.forEach(function(butt) {
+    butts.forEach(function (butt) {
         materialID++;
         var materialNode = {};
         materialNode['-id'] = materialID;
@@ -1285,10 +1285,10 @@ function createDocNode() {
     viyarNode.details.detail = [];
 
     var detailID = 0;
-    panels.forEach(function(panel) {
+    panels.forEach(function (panel) {
         detailID++;
         var detailNode = {};
-        
+
         panel.patterns = [];
         panel.corners = [];
 
@@ -1298,7 +1298,7 @@ function createDocNode() {
             var contours = findContours(panel.orderedContour);
             if (contours.length > 1) {
                 panel.innerContours = contours.slice(1);
-                if (recognizeInnerCont(panel) == false)  {
+                if (recognizeInnerCont(panel) == false) {
                     contourLog += '№ ' + detailID + ', поз. ' + panel.artPos + ((panel.designation == '') ? '' : (', обозн. ' + panel.designation)) + ', ' + panel.name + ';\r\n';
                 }
             }
@@ -1337,10 +1337,10 @@ function createDocNode() {
             detailNode['-grain'] = '1';
         }
         else {
-             detailNode['-grain'] = '0';
+            detailNode['-grain'] = '0';
         }
         detailNode['-description'] = getPanelName(panel);
-        detailNode['-marker'] ='0';
+        detailNode['-marker'] = '0';
         if (panel.face == PANEL_FACE_SIDE_1) {
             detailNode['-decoratedSide'] = 'front';
         }
@@ -1391,25 +1391,25 @@ function createDocNode() {
         }
         var bevels = 0;
         panel.grooves = [];
-        panel.cuts.forEach(function(cut) {
+        panel.cuts.forEach(function (cut) {
             groove = new ViyarGroove(panel, cut);
             if (groove.isExist) {
                 panel.grooves.push(groove);
-                if(groove.type == VIYAR_BEVEL) {
+                if (groove.type == VIYAR_BEVEL) {
                     bevels++;
-                    if(groove.edge == VIYAR_LEFT_SIDE) {
+                    if (groove.edge == VIYAR_LEFT_SIDE) {
                         leftEdgeType = 'srez';
                         leftEdgeParam = Math.round(groove.alpha);
                     }
-                    else if(groove.edge == VIYAR_TOP_SIDE) {
+                    else if (groove.edge == VIYAR_TOP_SIDE) {
                         topEdgeType = 'srez';
                         topEdgeParam = Math.round(groove.alpha);
                     }
-                    else if(groove.edge == VIYAR_RIGHT_SIDE) {
+                    else if (groove.edge == VIYAR_RIGHT_SIDE) {
                         rightEdgeType = 'srez';
                         rightEdgeParam = Math.round(groove.alpha);
                     }
-                    else if(groove.edge == VIYAR_BOTTOM_SIDE) {
+                    else if (groove.edge == VIYAR_BOTTOM_SIDE) {
                         bottomEdgeType = 'srez';
                         bottomEdgeParam = Math.round(groove.alpha);
                     }
@@ -1442,7 +1442,7 @@ function createDocNode() {
         detailNode.edges.bottom['-drop'] = '0';
 
         panel.drillings = [];
-        panel.holes.forEach(function(hole) {
+        panel.holes.forEach(function (hole) {
             var drilling = new ViyarDrilling(panel, hole);
             if (drilling.isExist) {
                 panel.drillings.push(drilling);
@@ -1455,7 +1455,7 @@ function createDocNode() {
             detailNode.operations.operation = [];
             var operationID = 0;
 
-            panel.drillings.forEach(function(drilling) {
+            panel.drillings.forEach(function (drilling) {
                 operationID++;
                 operNode = {};
                 operNode['-id'] = operationID;
@@ -1471,8 +1471,8 @@ function createDocNode() {
                 operNode['-depth'] = rnd(drilling.depth);
                 detailNode.operations.operation.push(operNode);
             });
-            panel.grooves.forEach(function(groove) {
-                if(groove.type == VIYAR_RABBETING) {
+            panel.grooves.forEach(function (groove) {
+                if (groove.type == VIYAR_RABBETING) {
                     operationID++;
                     operNode = {};
                     operNode['-id'] = operationID;
@@ -1504,7 +1504,7 @@ function createDocNode() {
                 }
             });
             if (recognized) {
-                panel.corners.forEach(function(corner) {
+                panel.corners.forEach(function (corner) {
                     operationID++;
                     operNode = {};
                     operNode['-id'] = operationID;
@@ -1528,7 +1528,7 @@ function createDocNode() {
                     operNode['-edgeCovering'] = corner.covering;
                     detailNode.operations.operation.push(operNode);
                 });
-                panel.patterns.forEach(function(pattern) {
+                panel.patterns.forEach(function (pattern) {
                     if (pattern.patternId == VIYAR_PATTERN_U_SHAPE) {
                         operationID++;
                         operNode = {};
@@ -1641,7 +1641,7 @@ function createDocNode() {
         var id = 0;
         viyarNode.products = {};
         viyarNode.products.product = [];
-        furns.forEach(function(furn) {
+        furns.forEach(function (furn) {
             id++;
             var productNode = {};
             productNode['-id'] = id;
@@ -1657,16 +1657,16 @@ function createDocNode() {
 function getPanelName(panel) {
     var result = panel.name;
     if (formatCombo.Value == POSITION_NAME_FORMAT) {
-        result = panel.artPos + '.' +  result;
+        result = panel.artPos + '.' + result;
     }
     else if (formatCombo.Value == DESIGNATION_NAME_FORMAT) {
-        result = panel.designation + '.' +  result;
+        result = panel.designation + '.' + result;
     }
     else if (formatCombo.Value == ORDER_POSITION_NAME_FORMAT) {
-        result = getOrderName() + '.' + panel.artPos + '.' +  result;
+        result = getOrderName() + '.' + panel.artPos + '.' + result;
     }
     else if (formatCombo.Value == ORDER_DESIGNATION_NAME_FORMAT) {
-        result = getOrderName() + '.' + panel.designation + '.' +  result;
+        result = getOrderName() + '.' + panel.designation + '.' + result;
     }
     if (panel.material.multiplicity > 1) {
         result = result + ' Сращ.(' + panel.material.multiplicity + ')';
@@ -1674,10 +1674,9 @@ function getPanelName(panel) {
     return result;
 }
 
-function recognizeInnerCont(panel)
-{
+function recognizeInnerCont(panel) {
     var result = true;
-    panel.innerContours.forEach(function(contour) {
+    panel.innerContours.forEach(function (contour) {
         var pattern = new CircleShape(contour);
         if (pattern.isExist) {
             panel.patterns.push(pattern);
@@ -1823,9 +1822,9 @@ function isRoundRectShape(contour, index) {
             contour[i4].IsLine() && contour[i5].IsArc() && !contour[i5].ArcDir &&
             contour[i6].IsLine() && contour[i7].IsArc() && !contour[i7].ArcDir &&
             (isVertLine(contour[i0]) || isHorLine(contour[i0]) &&
-            cmprd(contour[i1].ArcRadius(), contour[i3].ArcRadius()) &&
-            cmprd(contour[i3].ArcRadius(), contour[i5].ArcRadius()) &&
-            cmprd(contour[i5].ArcRadius(), contour[i7].ArcRadius()))) {
+                cmprd(contour[i1].ArcRadius(), contour[i3].ArcRadius()) &&
+                cmprd(contour[i3].ArcRadius(), contour[i5].ArcRadius()) &&
+                cmprd(contour[i5].ArcRadius(), contour[i7].ArcRadius()))) {
             var butt0 = new Butt(contour[i0]);
             var butt1 = new Butt(contour[i1]);
             var butt2 = new Butt(contour[i2]);
@@ -1843,8 +1842,7 @@ function isRoundRectShape(contour, index) {
     return 0;
 }
 
-function recognizeOuterCont(panel)
-{
+function recognizeOuterCont(panel) {
     var cntr = 0;
     var maxX = findMaxX(panel.outerContour);
     var maxY = findMaxY(panel.outerContour);
@@ -1978,8 +1976,7 @@ function RadiusCorner(panel, contour, crn, index) {
     }
 }
 
-function isRadiusCorner(contour, index)
-{
+function isRadiusCorner(contour, index) {
     if (contour.Count > 2) {
         var i0 = index;
         if (contour[i0].IsArc() && !contour[i0].ArcDir &&
@@ -2042,8 +2039,7 @@ function AngleCutCorner(panel, contour, crn, index) {
     }
 }
 
-function isAngleCutCorner(contour, index)
-{
+function isAngleCutCorner(contour, index) {
     if (contour.Count > 2) {
         var i0 = index;
         if (contour[i0].IsLine() && cmpr(contour[i0].Pos1.y, 0) && cmpr(contour[i0].Pos2.x, 0) &&
@@ -2105,8 +2101,7 @@ function CutoutCorner(panel, contour, crn, index) {
     }
 }
 
-function isCutoutCorner(contour, index)
-{
+function isCutoutCorner(contour, index) {
     if (contour.Count > 4) {
         var i0 = index;
         var i1 = nextIndex(contour, i0);
@@ -2158,8 +2153,7 @@ function RoundCutoutCorner(panel, contour, crn, index) {
     }
 }
 
-function isRoundCutoutCorner(contour, index)
-{
+function isRoundCutoutCorner(contour, index) {
     if (contour.Count > 3) {
         var i1 = index;
         var i2 = nextIndex(contour, i1);
@@ -2217,7 +2211,7 @@ function RectCutout(panel, contour, crn, index) {
         this.patternId = VIYAR_PATTERN_U_SHAPE;
         this.ext = VIYAR_WITH_EXT;
         this.radius = 0;
-        
+
         if (crn == 4) {
             this.edge = VIYAR_RIGHT_SIDE;
             this.shift = contour[i1].Pos2.x;
@@ -2232,7 +2226,7 @@ function RectCutout(panel, contour, crn, index) {
         }
         else if (crn == 2) {
             this.edge = VIYAR_LEFT_SIDE;
-            this.shift = panel.width -contour[i1].Pos1.x;
+            this.shift = panel.width - contour[i1].Pos1.x;
             this.sizeH = contour[i1].Pos2.y;
             this.sizeV = contour[i1].Pos1.x - contour[i1].Pos2.x;
         }
@@ -2252,8 +2246,7 @@ function RectCutout(panel, contour, crn, index) {
     }
 }
 
-function isRectCutout(contour, index)
-{
+function isRectCutout(contour, index) {
     var i0 = index;
     var i1 = nextIndex(contour, i0);
     var i2 = nextIndex(contour, i1);
@@ -2283,7 +2276,7 @@ function RoundRectCutout(panel, contour, crn, index) {
         this.type = VIYAR_SHAPE_BY_PATTERN;
         this.patternId = VIYAR_PATTERN_U_SHAPE;
         this.ext = VIYAR_WITHOUT_EXT;
-        
+
         this.radius = contour[i0].ArcRadius();
         if (crn == 4) {
             this.edge = VIYAR_RIGHT_SIDE;
@@ -2319,8 +2312,7 @@ function RoundRectCutout(panel, contour, crn, index) {
     }
 }
 
-function isRoundRectCutout(contour, index)
-{
+function isRoundRectCutout(contour, index) {
     if (contour.Count > 6) {
         var i1 = index;
         var i2 = nextIndex(contour, i1);
@@ -2405,8 +2397,7 @@ function HalfCircCutout(panel, contour, crn, index) {
     }
 }
 
-function isHalfCircCutout(contour, index)
-{
+function isHalfCircCutout(contour, index) {
     if (contour.Count > 3) {
         var i0 = index;
         if (contour[i0].IsArc() && contour[i0].ArcDir &&
@@ -2455,7 +2446,7 @@ function isOuterArc(contour, index) {
         if (contour[i0].IsArc() && !contour[i0].ArcDir && cmpr(contour[i0].Pos1.y, 0) &&
             cmprd(contour[i0].Pos1.x, contour[i0].Pos2.x) && cmpr(contour[i0].Center.x, contour[i0].ArcRadius()) &&
             !cmprt(contour[i0].Pos2.y, contour[i0].Pos1.y) && cmprd(contour[i0].Center.y, contour[i0].Pos2.y / 2)) {
-                return 1;
+            return 1;
         }
     }
     return 0;
@@ -2498,7 +2489,7 @@ function isInnerArc(contour, index) {
         if (contour[i0].IsArc() && contour[i0].ArcDir && cmpr(contour[i0].Pos1.y, 0) &&
             cmprd(contour[i0].Pos1.x, contour[i0].Pos2.x) && (cmpr(contour[i0].Pos1.x, 0) || cmpr(contour[i0].Pos2.x, 0)) &&
             !cmprt(contour[i0].Pos2.y, contour[i0].Pos1.y) && cmprd(contour[i0].Center.y, contour[i0].Pos2.y / 2)) {
-                return 1;
+            return 1;
         }
     }
     return 0;
@@ -2543,8 +2534,7 @@ function StandartSmile(panel, contour, crn, index) {
     }
 }
 
-function isStandartSmile(contour, index)
-{
+function isStandartSmile(contour, index) {
     if (contour.Count > 6) {
         var i0 = index;
         var i1 = nextIndex(contour, i0);
@@ -2605,8 +2595,7 @@ function NotStandartSmile(panel, contour, crn, index) {
     }
 }
 
-function isNotStandartSmile(contour, index)
-{
+function isNotStandartSmile(contour, index) {
     if (contour.Count > 7) {
         var i0 = index;
         var i1 = nextIndex(contour, i0);
@@ -2631,8 +2620,7 @@ function isNotStandartSmile(contour, index)
     return 0;
 }
 
-function ViyarDrilling(panel, hole)
-{
+function ViyarDrilling(panel, hole) {
     this.isExist = false;
     this.diameter = hole.diameter;
     if (hole.dirX == 1) {
@@ -2679,8 +2667,7 @@ function ViyarDrilling(panel, hole)
     }
 }
 
-function ViyarGroove(panel, cut)
-{
+function ViyarGroove(panel, cut) {
     this.isExist = false;
     this.type = VIYAR_UNDEFINED;
     this.subType = VIYAR_UNDEFINED;
@@ -2698,10 +2685,10 @@ function ViyarGroove(panel, cut)
     if (isOrthoLine(cut.trajectory) && isRightTriangle(cut.profile) && cmpr(cut.depth, 0)) {
         for (var i = 0; i < cut.profile.Count; i++) {
             line = cut.profile[i];
-            if(isVertLine(line)) {
+            if (isVertLine(line)) {
                 edgeX = line.Pos1.x;
             }
-            else if(isHorLine(line)) {
+            else if (isHorLine(line)) {
                 sideY = line.Pos1.y;
             }
         }
@@ -3104,8 +3091,7 @@ function ViyarGroove(panel, cut)
     }
 }
 
-function findLeftButt(panel)
-{
+function findLeftButt(panel) {
     if (panel.rectangle) {
         if (panel.leftButt != undefined) {
             return panel.leftButt;
@@ -3125,8 +3111,7 @@ function findLeftButt(panel)
     return new Butt();
 }
 
-function findBottomButt(panel)
-{
+function findBottomButt(panel) {
     if (panel.rectangle) {
         if (panel.bottomButt != undefined) {
             return panel.bottomButt;
@@ -3146,8 +3131,7 @@ function findBottomButt(panel)
     return new Butt();
 }
 
-function findTopButt(panel)
-{
+function findTopButt(panel) {
     if (panel.rectangle) {
         if (panel.topButt != undefined) {
             return panel.topButt;
@@ -3167,8 +3151,7 @@ function findTopButt(panel)
     return new Butt();
 }
 
-function findRightButt(panel)
-{
+function findRightButt(panel) {
     if (panel.rectangle) {
         if (panel.rightButt != undefined) {
             return panel.rightButt;
@@ -3213,7 +3196,7 @@ function isRightTriangle(contour) {
             for (var i = 0; i < contour.Count; i++) {
                 if (contour[i].IsLine()) {
                     var line = contour[i];
-                    if(isVertLine(line)) {
+                    if (isVertLine(line)) {
                         vert = true;
                     }
                     else if (isHorLine(line)) {
@@ -3235,7 +3218,7 @@ function isRightTriangle(contour) {
 function isOrthoLine(trajectory) {
     if ((trajectory.Count == 1) && (trajectory[0].IsLine())) {
         var line = trajectory[0];
-        if(isVertLine(line) || isHorLine(line)) {
+        if (isVertLine(line) || isHorLine(line)) {
             return true;
         }
     }
@@ -3244,7 +3227,7 @@ function isOrthoLine(trajectory) {
 
 function validateProject() {
     var arrArtPos = [];
-    Model.forEachPanel(function(modelPanel) {
+    Model.forEachPanel(function (modelPanel) {
         if ((modelPanel != undefined) && (modelPanel != null) && (isAsmChild(modelPanel) == false) && (isDraftChild(modelPanel) == false) && (modelPanel.ArtPos != '')) {
             for (var i = 0; i < modelPanel.Contour.Count; i++) {
                 if (modelPanel.Contour[i].ObjLength() == 0) {
@@ -3256,7 +3239,7 @@ function validateProject() {
             }
         }
     });
-    arrArtPos.sort(function(a, b) {return a - b});
+    arrArtPos.sort(function (a, b) { return a - b });
     if (arrArtPos.length > 0) {
         var strArtPos = '';
         strArtPos = arrArtPos[0];
@@ -3270,7 +3253,7 @@ function validateProject() {
             strElem = 'Контуры деталей поз. ' + strArtPos + ' содержат элементы нулевой длины.';
         }
         if (confirm(strElem + '\nУдалить элементы автоматически?')) {
-            Model.forEachPanel( function(modelPanel) {
+            Model.forEachPanel(function (modelPanel) {
                 if (modelPanel != undefined) {
                     for (var i = 0; i < modelPanel.Contour.Count; i++) {
                         if (modelPanel.Contour[i].ObjLength() == 0) {
@@ -3290,7 +3273,7 @@ function validateProject() {
         }
     }
     var arrArtPos = [];
-    Model.forEachPanel(function(modelPanel) {
+    Model.forEachPanel(function (modelPanel) {
         if ((modelPanel != undefined) && (modelPanel != null) && (isAsmChild(modelPanel) == false) && (isDraftChild(modelPanel) == false) && (modelPanel.ArtPos != '')) {
             for (var i = 0; i < modelPanel.Contour.Count; i++) {
                 if (modelPanel.Contour[i].ObjLength() < 1.0) {
@@ -3302,7 +3285,7 @@ function validateProject() {
             }
         }
     });
-    arrArtPos.sort(function(a, b) {return a - b});
+    arrArtPos.sort(function (a, b) { return a - b });
     if (arrArtPos.length > 0) {
         var strArtPos = '';
         strArtPos = arrArtPos[0];
@@ -3319,7 +3302,7 @@ function validateProject() {
         return false;
     }
     var arrArtPos = [];
-    Model.forEachPanel(function(modelPanel) {
+    Model.forEachPanel(function (modelPanel) {
         if ((modelPanel != undefined) && (modelPanel != null) && (isAsmChild(modelPanel) == false) && (isDraftChild(modelPanel) == false) && (modelPanel.ArtPos != '')) {
             if (modelPanel.Plastics.Count > 0) {
                 modelPanel.Highlighted = true;
@@ -3329,7 +3312,7 @@ function validateProject() {
             }
         }
     });
-    arrArtPos.sort(function(a, b) {return a - b});
+    arrArtPos.sort(function (a, b) { return a - b });
     if (arrArtPos.length > 0) {
         var strArtPos = '';
         strArtPos = arrArtPos[0];
@@ -3355,7 +3338,7 @@ function validateProject() {
 function checkManufactRule() {
     var arrArtPos = [];
 
-    Model.forEachPanel(function(modelPanel) {
+    Model.forEachPanel(function (modelPanel) {
         if (modelPanel != undefined) {
             for (var i = 0; i < modelPanel.Butts.Count; i++) {
                 var butt = modelPanel.Butts[i];
@@ -3370,7 +3353,7 @@ function checkManufactRule() {
             }
         }
     });
-    arrArtPos.sort(function(a, b) {return a - b});
+    arrArtPos.sort(function (a, b) { return a - b });
     if (arrArtPos.length == 1) {
         alert('Деталь поз. ' + arrArtPos[0] + ' облицована недопустимой по ширине кромкой. Ширина кромки должна быть на 3мм больше толщины детали.');
         return false;
@@ -3388,7 +3371,7 @@ function checkManufactRule() {
 }
 
 function limitHolesDepth(panel) {
-    panel.holes.forEach(function(hole) {
+    panel.holes.forEach(function (hole) {
         if (hole.depth > MAX_HOLE_DEPTH) {
             hole.depth = MAX_HOLE_DEPTH;
         }
@@ -3396,7 +3379,7 @@ function limitHolesDepth(panel) {
 }
 
 function thruHolesToFace(panel) {
-    panel.holes.forEach(function(hole) {
+    panel.holes.forEach(function (hole) {
         if ((hole.dirZ == 1) && (hole.type == HOLE_THRU_TYPE)) {
             hole.dirZ = -1 * hole.dirZ;
             hole.posZ = panel.thickness - hole.posZ;
@@ -3406,7 +3389,7 @@ function thruHolesToFace(panel) {
 
 function calcDirXHoles(panel, dir, type) {
     var cntr = 0;
-    panel.holes.forEach(function(hole) {
+    panel.holes.forEach(function (hole) {
         if ((hole.dirX == dir) && (hole.type == type)) {
             cntr++;
         }
@@ -3416,7 +3399,7 @@ function calcDirXHoles(panel, dir, type) {
 
 function calcDirYHoles(panel, dir, type) {
     var cntr = 0;
-    panel.holes.forEach(function(hole) {
+    panel.holes.forEach(function (hole) {
         if ((hole.dirY == dir) && (hole.type == type)) {
             cntr++;
         }
@@ -3426,7 +3409,7 @@ function calcDirYHoles(panel, dir, type) {
 
 function calcDirZHoles(panel, dir, type) {
     var cntr = 0;
-    panel.holes.forEach(function(hole) {
+    panel.holes.forEach(function (hole) {
         if ((hole.dirZ == dir) && (hole.type == type)) {
             cntr++;
         }
@@ -3499,7 +3482,7 @@ function rotate180(panel) {
     var length = panel.length;
     var width = panel.width;
 
-    panel.holes.forEach(function(hole) {
+    panel.holes.forEach(function (hole) {
         hole.dirX = -1 * hole.dirX;
         hole.dirY = -1 * hole.dirY;
         hole.posX = length - hole.posX;
@@ -3513,7 +3496,7 @@ function rotate180(panel) {
     panel.orderedContour.Move(minX * -1.0, minY * -1.0);
     panel.contour.Move(minX * -1.0, minY * -1.0);
 
-    panel.cuts.forEach(function(cut) {
+    panel.cuts.forEach(function (cut) {
         cut.trajectory.Rotate(0, 0, -180.0);
         cut.trajectory.Move(minX * -1.0, minY * -1.0);
     });
@@ -3532,7 +3515,7 @@ function rotate90(panel) {
     var length = panel.length;
     var width = panel.width;
 
-    panel.holes.forEach(function(hole) {
+    panel.holes.forEach(function (hole) {
         var dirX = hole.dirY;
         var dirY = -1 * hole.dirX;
         hole.dirX = dirX;
@@ -3551,7 +3534,7 @@ function rotate90(panel) {
     panel.orderedContour.Move(minX * -1.0, minY * -1.0);
     panel.contour.Move(minX * -1.0, minY * -1.0);
 
-    panel.cuts.forEach(function(cut) {
+    panel.cuts.forEach(function (cut) {
         cut.trajectory.Rotate(0, 0, -90.0);
         cut.trajectory.Move(minX * -1.0, minY * -1.0);
     });
@@ -3575,7 +3558,7 @@ function flipY(panel) {
 
     var length = panel.length;
 
-    panel.holes.forEach(function(hole) {
+    panel.holes.forEach(function (hole) {
         hole.dirX = -1 * hole.dirX;
         hole.dirZ = -1 * hole.dirZ;
         hole.posX = length - hole.posX;
@@ -3594,7 +3577,7 @@ function flipY(panel) {
     panel.orderedContour.Move(minX * -1.0, minY * -1.0);
     panel.contour.Move(minX * -1.0, minY * -1.0);
 
-    panel.cuts.forEach(function(cut) {
+    panel.cuts.forEach(function (cut) {
         cut.trajectory.Symmetry(0, 0, 0, panel.width, false);
         cut.trajectory.Move(minX * -1.0, minY * -1.0);
         cut.profile.Rotate(0, 0, -180.0);
@@ -3684,7 +3667,7 @@ function adjustOrientation(panel) {
         flipY(panel);
     }
     else if ((panel.face == PANEL_FACE_UNDEFINED) && (calcDirZHoles(panel, 1, HOLE_THRU_TYPE) > calcDirZHoles(panel, -1, HOLE_THRU_TYPE)) &&
-             (calcDirZHoles(panel, -1, HOLE_BLIND_TYPE) == calcDirZHoles(panel, 1, HOLE_BLIND_TYPE))) {
+        (calcDirZHoles(panel, -1, HOLE_BLIND_TYPE) == calcDirZHoles(panel, 1, HOLE_BLIND_TYPE))) {
         flipY(panel);
     }
     if (panel.rectangle) {
@@ -3836,7 +3819,7 @@ function nextIndex(contour, index) {
 function distance(p1, p2) {
     var a = p1.x - p2.x;
     var b = p1.y - p2.y;
-    var dist = Math.sqrt(a*a + b*b);
+    var dist = Math.sqrt(a * a + b * b);
     return dist;
 }
 
@@ -3890,15 +3873,15 @@ function parallel(p1, p2, d, dir) {
 }
 
 function intersect(p1, p2, p3, p4) {
-	if ((p1.x == p2.x && p1.y == p2.y) || (p3.x == p4.x && p3.y == p4.y)) {
-		return null;
-	}
-	var denom = ((p4.y - p3.y) * (p2.x - p1.x) - (p4.x - p3.x) * (p2.y - p1.y));
-	if (Math.abs(denom) < 1) {
-		return null;
-	}
-	var ua = ((p4.x - p3.x) * (p1.y - p3.y) - (p4.y - p3.y) * (p1.x - p3.x)) / denom;
-	var ub = ((p2.x - p1.x) * (p1.y - p3.y) - (p2.y - p1.y) * (p1.x - p3.x)) / denom;
+    if ((p1.x == p2.x && p1.y == p2.y) || (p3.x == p4.x && p3.y == p4.y)) {
+        return null;
+    }
+    var denom = ((p4.y - p3.y) * (p2.x - p1.x) - (p4.x - p3.x) * (p2.y - p1.y));
+    if (Math.abs(denom) < 1) {
+        return null;
+    }
+    var ua = ((p4.x - p3.x) * (p1.y - p3.y) - (p4.y - p3.y) * (p1.x - p3.x)) / denom;
+    var ub = ((p2.x - p1.x) * (p1.y - p3.y) - (p2.y - p1.y) * (p1.x - p3.x)) / denom;
     return {
         x: p1.x + ua * (p2.x - p1.x),
         y: p1.y + ua * (p2.y - p1.y)
