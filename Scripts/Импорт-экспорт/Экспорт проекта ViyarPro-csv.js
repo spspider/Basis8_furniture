@@ -644,9 +644,14 @@ function exportViyarPro() {
 
 function exportCSV(panels) {
     var csvRows = [];
-    csvRows.push("ID;Material;Name;Thickness;Width;Height;Quantity");
+    csvRows.push("ID;Material;Name;Thickness;Width;Height;Quantity;leftButt;topButt;rightButt;bottomButt");
 
     panels.forEach((panel, index) => {
+        var leftButt = panel.leftButt && panel.leftButt.isExist ? "x" : "";
+        var topButt = panel.topButt && panel.topButt.isExist ? "x" : "";
+        var rightButt = panel.rightButt && panel.rightButt.isExist ? "x" : "";
+        var bottomButt = panel.bottomButt && panel.bottomButt.isExist ? "x" : "";
+
         var row = [
             index + 1,
             panel.material.name,
@@ -654,13 +659,20 @@ function exportCSV(panels) {
             panel.thickness,
             panel.length,
             panel.width,
-            panel.quantity
+            panel.quantity,
+            leftButt,
+            topButt,
+            rightButt,
+            bottomButt
         ].join(";");
+
         csvRows.push(row);
     });
 
     return csvRows.join("\n");
 }
+
+
 
 function adjustPanelsOrientation() {
     panels.forEach(adjustOrientation);

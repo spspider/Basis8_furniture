@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+  <UserParams/>
+  <Items>
+    <Template>
+      <Name>Panels specification.fr3</Name>
+      <Path>Panels</Path>
+      <IsPrint>Y</IsPrint>
+      <Index>0</Index>
+    </Template>
+    <Template>
+      <Name>Sheet edge banding specification.fr3</Name>
+      <Path>Butts</Path>
+      <IsPrint>Y</IsPrint>
+      <Index>1</Index>
+    </Template>
+    <Template>
+      <Name>Profile specification.fr3</Name>
+      <Path>Profiles</Path>
+      <IsPrint>Y</IsPrint>
+      <Index>2</Index>
+    </Template>
+    <Template>
+      <Name>Fasteners, accessories, assemblies specification.fr3</Name>
+      <Path>FastAsm</Path>
+      <IsPrint>Y</IsPrint>
+      <Index>3</Index>
+    </Template>
+    <Template>
+      <Name>Subunits specification.fr3</Name>
+      <Path>AsmUnits</Path>
+      <IsPrint>Y</IsPrint>
+      <Index>4</Index>
+    </Template>
+  </Items>
+</Root>
