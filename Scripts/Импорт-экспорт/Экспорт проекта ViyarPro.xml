@@ -13,7 +13,9 @@
       <Value>Обозначение.Наименование</Value>
       <ItemIndex>1</ItemIndex>
     </Item>
-    <Item Name="Присоединять фурнитуру"/>
+    <Item Name="Присоединять фурнитуру">
+      <Value>Y</Value>
+    </Item>
     <Item>
       <ReadOnly>Y</ReadOnly>
     </Item>
